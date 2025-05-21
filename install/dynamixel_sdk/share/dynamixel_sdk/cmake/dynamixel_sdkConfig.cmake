@@ -1,0 +1,1 @@
+/home/yt6/ros2_py_ws/build/dynamixel_sdk/ament_cmake_core/dynamixel_sdkConfig.cmake

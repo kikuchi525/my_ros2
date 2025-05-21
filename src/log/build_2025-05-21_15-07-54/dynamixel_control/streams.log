@@ -1,0 +1,33 @@
+[1.178s] Invoking command in '/home/yt6/ros2_py_ws/src/dynamixel_control': PYTHONPATH=/home/yt6/ros2_py_ws/src/build/dynamixel_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yt6/ros2_py_ws/src/install/dynamixel_control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/dynamixel_control build --build-base /home/yt6/ros2_py_ws/src/build/dynamixel_control/build install --record /home/yt6/ros2_py_ws/src/build/dynamixel_control/install.log --single-version-externally-managed install_data
+[1.397s] running egg_info
+[1.397s] creating ../build/dynamixel_control/dynamixel_control.egg-info
+[1.397s] writing ../build/dynamixel_control/dynamixel_control.egg-info/PKG-INFO
+[1.397s] writing dependency_links to ../build/dynamixel_control/dynamixel_control.egg-info/dependency_links.txt
+[1.397s] writing entry points to ../build/dynamixel_control/dynamixel_control.egg-info/entry_points.txt
+[1.398s] writing requirements to ../build/dynamixel_control/dynamixel_control.egg-info/requires.txt
+[1.398s] writing top-level names to ../build/dynamixel_control/dynamixel_control.egg-info/top_level.txt
+[1.398s] writing manifest file '../build/dynamixel_control/dynamixel_control.egg-info/SOURCES.txt'
+[1.425s] reading manifest file '../build/dynamixel_control/dynamixel_control.egg-info/SOURCES.txt'
+[1.425s] writing manifest file '../build/dynamixel_control/dynamixel_control.egg-info/SOURCES.txt'
+[1.425s] running build
+[1.425s] running build_py
+[1.425s] creating /home/yt6/ros2_py_ws/src/build/dynamixel_control/build
+[1.426s] creating /home/yt6/ros2_py_ws/src/build/dynamixel_control/build/lib
+[1.426s] creating /home/yt6/ros2_py_ws/src/build/dynamixel_control/build/lib/dynamixel_control
+[1.426s] copying dynamixel_control/__init__.py -> /home/yt6/ros2_py_ws/src/build/dynamixel_control/build/lib/dynamixel_control
+[1.426s] copying dynamixel_control/dynamixel_node.py -> /home/yt6/ros2_py_ws/src/build/dynamixel_control/build/lib/dynamixel_control
+[1.426s] running install
+[1.426s] running install_lib
+[1.427s] creating /home/yt6/ros2_py_ws/src/install/dynamixel_control/lib/python3.8/site-packages/dynamixel_control
+[1.427s] copying /home/yt6/ros2_py_ws/src/build/dynamixel_control/build/lib/dynamixel_control/__init__.py -> /home/yt6/ros2_py_ws/src/install/dynamixel_control/lib/python3.8/site-packages/dynamixel_control
+[1.427s] copying /home/yt6/ros2_py_ws/src/build/dynamixel_control/build/lib/dynamixel_control/dynamixel_node.py -> /home/yt6/ros2_py_ws/src/install/dynamixel_control/lib/python3.8/site-packages/dynamixel_control
+[1.428s] byte-compiling /home/yt6/ros2_py_ws/src/install/dynamixel_control/lib/python3.8/site-packages/dynamixel_control/__init__.py to __init__.cpython-38.pyc
+[1.429s] byte-compiling /home/yt6/ros2_py_ws/src/install/dynamixel_control/lib/python3.8/site-packages/dynamixel_control/dynamixel_node.py to dynamixel_node.cpython-38.pyc
+[1.429s] running install_data
+[1.429s] copying package.xml -> /home/yt6/ros2_py_ws/src/install/dynamixel_control/share/dynamixel_control
+[1.429s] running install_egg_info
+[1.431s] Copying ../build/dynamixel_control/dynamixel_control.egg-info to /home/yt6/ros2_py_ws/src/install/dynamixel_control/lib/python3.8/site-packages/dynamixel_control-0.0.0-py3.8.egg-info
+[1.431s] running install_scripts
+[1.448s] Installing dynamixel_node script to /home/yt6/ros2_py_ws/src/install/dynamixel_control/lib/dynamixel_control
+[1.449s] writing list of installed files to '/home/yt6/ros2_py_ws/src/build/dynamixel_control/install.log'
+[1.488s] Invoked command in '/home/yt6/ros2_py_ws/src/dynamixel_control' returned '0': PYTHONPATH=/home/yt6/ros2_py_ws/src/build/dynamixel_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yt6/ros2_py_ws/src/install/dynamixel_control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/dynamixel_control build --build-base /home/yt6/ros2_py_ws/src/build/dynamixel_control/build install --record /home/yt6/ros2_py_ws/src/build/dynamixel_control/install.log --single-version-externally-managed install_data

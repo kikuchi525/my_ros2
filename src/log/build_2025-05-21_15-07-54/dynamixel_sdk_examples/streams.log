@@ -1,0 +1,84 @@
+[0.016s] Invoking command in '/home/yt6/ros2_py_ws/src/build/dynamixel_sdk_examples': AMENT_PREFIX_PATH=/home/yt6/ros2_py_ws/src/install/dynamixel_sdk_custom_interfaces:/home/yt6/ros2_py_ws/src/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yt6/ros2_py_ws/src/install/dynamixel_sdk_custom_interfaces:/home/yt6/ros2_py_ws/src/install/dynamixel_sdk:/home/yt6/ros2_py_ws/install/dynamixel_sdk_examples:/home/yt6/ros2_py_ws/install/dynamixel_sdk_custom_interfaces:/home/yt6/ros2_py_ws/install/dynamixel_sdk:/home/yt6/ws_moveit2/install/rviz_marker_tools:/home/yt6/ws_moveit2/install/moveit_resources_prbt_support:/home/yt6/ws_moveit2/install/moveit_resources:/home/yt6/ws_moveit2/install/moveit_resources_pr2_description:/home/yt6/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/yt6/ws_moveit2/install/moveit_resources_panda_description:/home/yt6/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/yt6/ws_moveit2/install/moveit_resources_fanuc_description:/home/yt6/ws_moveit2/install/moveit_msgs:/home/yt6/ws_moveit2/install/moveit_common:/home/yt6/ros2_py_ws/install/my_vision_pkg:/home/yt6/ros2_py_ws/install/my_py_pkg:/home/yt6/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble LD_LIBRARY_PATH=/home/yt6/ros2_py_ws/src/install/dynamixel_sdk_custom_interfaces/lib:/home/yt6/ros2_py_ws/src/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yt6/ros2_py_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/yt6/ros2_py_ws/src/DynamixelSDK/dynamixel_sdk_examples -DCMAKE_INSTALL_PREFIX=/home/yt6/ros2_py_ws/src/install/dynamixel_sdk_examples
+[0.041s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.041s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.041s]   CMake.
+[0.041s] 
+[0.041s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.041s]   to tell CMake that the project requires at least <min> but has been updated
+[0.041s]   to work with policies introduced by <max> or earlier.
+[0.041s] 
+[0.041s] [0m
+[0.084s] -- The C compiler identification is GNU 9.4.0
+[0.143s] -- The CXX compiler identification is GNU 9.4.0
+[0.150s] -- Detecting C compiler ABI info
+[0.210s] -- Detecting C compiler ABI info - done
+[0.224s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.224s] -- Detecting C compile features
+[0.225s] -- Detecting C compile features - done
+[0.236s] -- Detecting CXX compiler ABI info
+[0.329s] -- Detecting CXX compiler ABI info - done
+[0.344s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.344s] -- Detecting CXX compile features
+[0.345s] -- Detecting CXX compile features - done
+[0.356s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.505s] -- Found Python3: /usr/bin/python3 (found version "3.8.10") found components: Interpreter
+[0.608s] -- Found dynamixel_sdk: 3.7.60 (/home/yt6/ros2_py_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/cmake)
+[0.609s] -- Found dynamixel_sdk_custom_interfaces: 3.7.60 (/home/yt6/ros2_py_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake)
+[0.662s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.671s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.682s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.699s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.723s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.778s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.851s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.856s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.990s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")
+[1.027s] -- Found FastRTPS: /opt/ros/humble/include
+[1.082s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.097s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.158s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.158s] -- Looking for pthread_create in pthreads
+[1.251s] -- Looking for pthread_create in pthreads - not found
+[1.251s] -- Looking for pthread_create in pthread
+[1.358s] -- Looking for pthread_create in pthread - found
+[1.359s] -- Found Threads: TRUE
+[1.488s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.575s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.576s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.577s] -- Configured cppcheck include dirs: /home/yt6/ros2_py_ws/src/DynamixelSDK/dynamixel_sdk_examples/include
+[1.577s] -- Configured cppcheck exclude dirs and/or files: 
+[1.578s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.578s] -- Configured cpplint exclude dirs and/or files: 
+[1.578s] -- Added test 'lint_cmake' to check CMake code style
+[1.579s] -- Added test 'uncrustify' to check C / C++ code style
+[1.580s] -- Configured uncrustify additional arguments: 
+[1.580s] -- Added test 'xmllint' to check XML markup files
+[1.581s] -- Configuring done (1.6s)
+[1.592s] -- Generating done (0.0s)
+[1.593s] -- Build files have been written to: /home/yt6/ros2_py_ws/src/build/dynamixel_sdk_examples
+[1.603s] Invoked command in '/home/yt6/ros2_py_ws/src/build/dynamixel_sdk_examples' returned '0': AMENT_PREFIX_PATH=/home/yt6/ros2_py_ws/src/install/dynamixel_sdk_custom_interfaces:/home/yt6/ros2_py_ws/src/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yt6/ros2_py_ws/src/install/dynamixel_sdk_custom_interfaces:/home/yt6/ros2_py_ws/src/install/dynamixel_sdk:/home/yt6/ros2_py_ws/install/dynamixel_sdk_examples:/home/yt6/ros2_py_ws/install/dynamixel_sdk_custom_interfaces:/home/yt6/ros2_py_ws/install/dynamixel_sdk:/home/yt6/ws_moveit2/install/rviz_marker_tools:/home/yt6/ws_moveit2/install/moveit_resources_prbt_support:/home/yt6/ws_moveit2/install/moveit_resources:/home/yt6/ws_moveit2/install/moveit_resources_pr2_description:/home/yt6/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/yt6/ws_moveit2/install/moveit_resources_panda_description:/home/yt6/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/yt6/ws_moveit2/install/moveit_resources_fanuc_description:/home/yt6/ws_moveit2/install/moveit_msgs:/home/yt6/ws_moveit2/install/moveit_common:/home/yt6/ros2_py_ws/install/my_vision_pkg:/home/yt6/ros2_py_ws/install/my_py_pkg:/home/yt6/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble LD_LIBRARY_PATH=/home/yt6/ros2_py_ws/src/install/dynamixel_sdk_custom_interfaces/lib:/home/yt6/ros2_py_ws/src/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yt6/ros2_py_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/yt6/ros2_py_ws/src/DynamixelSDK/dynamixel_sdk_examples -DCMAKE_INSTALL_PREFIX=/home/yt6/ros2_py_ws/src/install/dynamixel_sdk_examples
+[1.606s] Invoking command in '/home/yt6/ros2_py_ws/src/build/dynamixel_sdk_examples': AMENT_PREFIX_PATH=/home/yt6/ros2_py_ws/src/install/dynamixel_sdk_custom_interfaces:/home/yt6/ros2_py_ws/src/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yt6/ros2_py_ws/src/install/dynamixel_sdk_custom_interfaces:/home/yt6/ros2_py_ws/src/install/dynamixel_sdk:/home/yt6/ros2_py_ws/install/dynamixel_sdk_examples:/home/yt6/ros2_py_ws/install/dynamixel_sdk_custom_interfaces:/home/yt6/ros2_py_ws/install/dynamixel_sdk:/home/yt6/ws_moveit2/install/rviz_marker_tools:/home/yt6/ws_moveit2/install/moveit_resources_prbt_support:/home/yt6/ws_moveit2/install/moveit_resources:/home/yt6/ws_moveit2/install/moveit_resources_pr2_description:/home/yt6/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/yt6/ws_moveit2/install/moveit_resources_panda_description:/home/yt6/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/yt6/ws_moveit2/install/moveit_resources_fanuc_description:/home/yt6/ws_moveit2/install/moveit_msgs:/home/yt6/ws_moveit2/install/moveit_common:/home/yt6/ros2_py_ws/install/my_vision_pkg:/home/yt6/ros2_py_ws/install/my_py_pkg:/home/yt6/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble LD_LIBRARY_PATH=/home/yt6/ros2_py_ws/src/install/dynamixel_sdk_custom_interfaces/lib:/home/yt6/ros2_py_ws/src/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yt6/ros2_py_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/yt6/ros2_py_ws/src/build/dynamixel_sdk_examples -- -j16 -l16
+[1.647s] [ 50%] [32mBuilding CXX object CMakeFiles/read_write_node.dir/src/read_write_node.cpp.o[0m
+[8.750s] [100%] [32m[1mLinking CXX executable read_write_node[0m
+[9.028s] [100%] Built target read_write_node
+[9.035s] Invoked command in '/home/yt6/ros2_py_ws/src/build/dynamixel_sdk_examples' returned '0': AMENT_PREFIX_PATH=/home/yt6/ros2_py_ws/src/install/dynamixel_sdk_custom_interfaces:/home/yt6/ros2_py_ws/src/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yt6/ros2_py_ws/src/install/dynamixel_sdk_custom_interfaces:/home/yt6/ros2_py_ws/src/install/dynamixel_sdk:/home/yt6/ros2_py_ws/install/dynamixel_sdk_examples:/home/yt6/ros2_py_ws/install/dynamixel_sdk_custom_interfaces:/home/yt6/ros2_py_ws/install/dynamixel_sdk:/home/yt6/ws_moveit2/install/rviz_marker_tools:/home/yt6/ws_moveit2/install/moveit_resources_prbt_support:/home/yt6/ws_moveit2/install/moveit_resources:/home/yt6/ws_moveit2/install/moveit_resources_pr2_description:/home/yt6/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/yt6/ws_moveit2/install/moveit_resources_panda_description:/home/yt6/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/yt6/ws_moveit2/install/moveit_resources_fanuc_description:/home/yt6/ws_moveit2/install/moveit_msgs:/home/yt6/ws_moveit2/install/moveit_common:/home/yt6/ros2_py_ws/install/my_vision_pkg:/home/yt6/ros2_py_ws/install/my_py_pkg:/home/yt6/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble LD_LIBRARY_PATH=/home/yt6/ros2_py_ws/src/install/dynamixel_sdk_custom_interfaces/lib:/home/yt6/ros2_py_ws/src/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yt6/ros2_py_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/yt6/ros2_py_ws/src/build/dynamixel_sdk_examples -- -j16 -l16
+[9.038s] Invoking command in '/home/yt6/ros2_py_ws/src/build/dynamixel_sdk_examples': AMENT_PREFIX_PATH=/home/yt6/ros2_py_ws/src/install/dynamixel_sdk_custom_interfaces:/home/yt6/ros2_py_ws/src/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yt6/ros2_py_ws/src/install/dynamixel_sdk_custom_interfaces:/home/yt6/ros2_py_ws/src/install/dynamixel_sdk:/home/yt6/ros2_py_ws/install/dynamixel_sdk_examples:/home/yt6/ros2_py_ws/install/dynamixel_sdk_custom_interfaces:/home/yt6/ros2_py_ws/install/dynamixel_sdk:/home/yt6/ws_moveit2/install/rviz_marker_tools:/home/yt6/ws_moveit2/install/moveit_resources_prbt_support:/home/yt6/ws_moveit2/install/moveit_resources:/home/yt6/ws_moveit2/install/moveit_resources_pr2_description:/home/yt6/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/yt6/ws_moveit2/install/moveit_resources_panda_description:/home/yt6/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/yt6/ws_moveit2/install/moveit_resources_fanuc_description:/home/yt6/ws_moveit2/install/moveit_msgs:/home/yt6/ws_moveit2/install/moveit_common:/home/yt6/ros2_py_ws/install/my_vision_pkg:/home/yt6/ros2_py_ws/install/my_py_pkg:/home/yt6/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble LD_LIBRARY_PATH=/home/yt6/ros2_py_ws/src/install/dynamixel_sdk_custom_interfaces/lib:/home/yt6/ros2_py_ws/src/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yt6/ros2_py_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/yt6/ros2_py_ws/src/build/dynamixel_sdk_examples
+[9.044s] -- Install configuration: ""
+[9.044s] -- Installing: /home/yt6/ros2_py_ws/src/install/dynamixel_sdk_examples/lib/dynamixel_sdk_examples/read_write_node
+[9.049s] -- Set non-toolchain portion of runtime path of "/home/yt6/ros2_py_ws/src/install/dynamixel_sdk_examples/lib/dynamixel_sdk_examples/read_write_node" to ""
+[9.050s] -- Installing: /home/yt6/ros2_py_ws/src/install/dynamixel_sdk_examples/share/ament_index/resource_index/package_run_dependencies/dynamixel_sdk_examples
+[9.050s] -- Installing: /home/yt6/ros2_py_ws/src/install/dynamixel_sdk_examples/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk_examples
+[9.050s] -- Installing: /home/yt6/ros2_py_ws/src/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/ament_prefix_path.sh
+[9.050s] -- Installing: /home/yt6/ros2_py_ws/src/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/ament_prefix_path.dsv
+[9.050s] -- Installing: /home/yt6/ros2_py_ws/src/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/path.sh
+[9.050s] -- Installing: /home/yt6/ros2_py_ws/src/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/path.dsv
+[9.050s] -- Installing: /home/yt6/ros2_py_ws/src/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.bash
+[9.051s] -- Installing: /home/yt6/ros2_py_ws/src/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.sh
+[9.051s] -- Installing: /home/yt6/ros2_py_ws/src/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.zsh
+[9.051s] -- Installing: /home/yt6/ros2_py_ws/src/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.dsv
+[9.051s] -- Installing: /home/yt6/ros2_py_ws/src/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.dsv
+[9.051s] -- Installing: /home/yt6/ros2_py_ws/src/install/dynamixel_sdk_examples/share/ament_index/resource_index/packages/dynamixel_sdk_examples
+[9.052s] -- Installing: /home/yt6/ros2_py_ws/src/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/cmake/dynamixel_sdk_examplesConfig.cmake
+[9.052s] -- Installing: /home/yt6/ros2_py_ws/src/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/cmake/dynamixel_sdk_examplesConfig-version.cmake
+[9.052s] -- Installing: /home/yt6/ros2_py_ws/src/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.xml
+[9.055s] Invoked command in '/home/yt6/ros2_py_ws/src/build/dynamixel_sdk_examples' returned '0': AMENT_PREFIX_PATH=/home/yt6/ros2_py_ws/src/install/dynamixel_sdk_custom_interfaces:/home/yt6/ros2_py_ws/src/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yt6/ros2_py_ws/src/install/dynamixel_sdk_custom_interfaces:/home/yt6/ros2_py_ws/src/install/dynamixel_sdk:/home/yt6/ros2_py_ws/install/dynamixel_sdk_examples:/home/yt6/ros2_py_ws/install/dynamixel_sdk_custom_interfaces:/home/yt6/ros2_py_ws/install/dynamixel_sdk:/home/yt6/ws_moveit2/install/rviz_marker_tools:/home/yt6/ws_moveit2/install/moveit_resources_prbt_support:/home/yt6/ws_moveit2/install/moveit_resources:/home/yt6/ws_moveit2/install/moveit_resources_pr2_description:/home/yt6/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/yt6/ws_moveit2/install/moveit_resources_panda_description:/home/yt6/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/yt6/ws_moveit2/install/moveit_resources_fanuc_description:/home/yt6/ws_moveit2/install/moveit_msgs:/home/yt6/ws_moveit2/install/moveit_common:/home/yt6/ros2_py_ws/install/my_vision_pkg:/home/yt6/ros2_py_ws/install/my_py_pkg:/home/yt6/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble LD_LIBRARY_PATH=/home/yt6/ros2_py_ws/src/install/dynamixel_sdk_custom_interfaces/lib:/home/yt6/ros2_py_ws/src/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yt6/ros2_py_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/yt6/ros2_py_ws/src/build/dynamixel_sdk_examples

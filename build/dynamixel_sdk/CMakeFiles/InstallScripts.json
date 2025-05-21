@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/yt6/ros2_py_ws/build/dynamixel_sdk/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/yt6/ros2_py_ws/src/build/dynamixel_sdk_custom_interfaces/cmake_install.cmake",
+		"/home/yt6/ros2_py_ws/src/build/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces__py/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

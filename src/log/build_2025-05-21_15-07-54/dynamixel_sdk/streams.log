@@ -1,0 +1,79 @@
+[0.043s] Invoking command in '/home/yt6/ros2_py_ws/src/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yt6/ros2_py_ws/install/my_vision_pkg:/home/yt6/ros2_py_ws/install/my_py_pkg:/home/yt6/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake /home/yt6/ros2_py_ws/src/DynamixelSDK/dynamixel_sdk -DCMAKE_INSTALL_PREFIX=/home/yt6/ros2_py_ws/src/install/dynamixel_sdk
+[0.478s] -- The C compiler identification is GNU 9.4.0
+[0.478s] -- The CXX compiler identification is GNU 9.4.0
+[0.478s] -- Detecting C compiler ABI info
+[0.478s] -- Detecting C compiler ABI info - done
+[0.479s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.479s] -- Detecting C compile features
+[0.479s] -- Detecting C compile features - done
+[0.481s] -- Detecting CXX compiler ABI info
+[0.481s] -- Detecting CXX compiler ABI info - done
+[0.481s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.481s] -- Detecting CXX compile features
+[0.481s] -- Detecting CXX compile features - done
+[0.481s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.481s] [0mCMake Deprecation Warning at CMakeLists.txt:4 (cmake_minimum_required):
+[0.481s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.482s]   CMake.
+[0.482s] 
+[0.482s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.482s]   to tell CMake that the project requires at least <min> but has been updated
+[0.482s]   to work with policies introduced by <max> or earlier.
+[0.482s] 
+[0.482s] [0m
+[0.522s] -- Found Python3: /usr/bin/python3 (found version "3.8.10") found components: Interpreter
+[0.671s] -- Configuring done (0.6s)
+[0.676s] -- Generating done (0.0s)
+[0.678s] -- Build files have been written to: /home/yt6/ros2_py_ws/src/build/dynamixel_sdk
+[0.703s] Invoked command in '/home/yt6/ros2_py_ws/src/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yt6/ros2_py_ws/install/my_vision_pkg:/home/yt6/ros2_py_ws/install/my_py_pkg:/home/yt6/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake /home/yt6/ros2_py_ws/src/DynamixelSDK/dynamixel_sdk -DCMAKE_INSTALL_PREFIX=/home/yt6/ros2_py_ws/src/install/dynamixel_sdk
+[0.705s] Invoking command in '/home/yt6/ros2_py_ws/src/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yt6/ros2_py_ws/install/my_vision_pkg:/home/yt6/ros2_py_ws/install/my_py_pkg:/home/yt6/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/yt6/ros2_py_ws/src/build/dynamixel_sdk -- -j16 -l16
+[0.734s] [ 50%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_sync_write.cpp.o[0m
+[0.734s] [ 50%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_sync_read.cpp.o[0m
+[0.734s] [ 50%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/packet_handler.cpp.o[0m
+[0.734s] [ 50%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/protocol2_packet_handler.cpp.o[0m
+[0.734s] [ 50%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/protocol1_packet_handler.cpp.o[0m
+[0.734s] [ 60%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_bulk_write.cpp.o[0m
+[0.734s] [ 70%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_bulk_read.cpp.o[0m
+[0.734s] [ 80%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/port_handler.cpp.o[0m
+[0.734s] [ 90%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/port_handler_linux.cpp.o[0m
+[1.404s] [100%] [32m[1mLinking CXX shared library libdynamixel_sdk.so[0m
+[1.481s] [100%] Built target dynamixel_sdk
+[1.488s] Invoked command in '/home/yt6/ros2_py_ws/src/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yt6/ros2_py_ws/install/my_vision_pkg:/home/yt6/ros2_py_ws/install/my_py_pkg:/home/yt6/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/yt6/ros2_py_ws/src/build/dynamixel_sdk -- -j16 -l16
+[1.500s] Invoking command in '/home/yt6/ros2_py_ws/src/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yt6/ros2_py_ws/install/my_vision_pkg:/home/yt6/ros2_py_ws/install/my_py_pkg:/home/yt6/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --install /home/yt6/ros2_py_ws/src/build/dynamixel_sdk
+[1.505s] -- Install configuration: ""
+[1.505s] -- Installing: /home/yt6/ros2_py_ws/src/install/dynamixel_sdk/include/
+[1.505s] -- Installing: /home/yt6/ros2_py_ws/src/install/dynamixel_sdk/include//dynamixel_sdk
+[1.505s] -- Installing: /home/yt6/ros2_py_ws/src/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_read.h
+[1.506s] -- Installing: /home/yt6/ros2_py_ws/src/install/dynamixel_sdk/include//dynamixel_sdk/protocol1_packet_handler.h
+[1.506s] -- Installing: /home/yt6/ros2_py_ws/src/install/dynamixel_sdk/include//dynamixel_sdk/packet_handler.h
+[1.506s] -- Installing: /home/yt6/ros2_py_ws/src/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_windows.h
+[1.506s] -- Installing: /home/yt6/ros2_py_ws/src/install/dynamixel_sdk/include//dynamixel_sdk/port_handler.h
+[1.506s] -- Installing: /home/yt6/ros2_py_ws/src/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_read.h
+[1.506s] -- Installing: /home/yt6/ros2_py_ws/src/install/dynamixel_sdk/include//dynamixel_sdk/dynamixel_sdk.h
+[1.506s] -- Installing: /home/yt6/ros2_py_ws/src/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_mac.h
+[1.507s] -- Installing: /home/yt6/ros2_py_ws/src/install/dynamixel_sdk/include//dynamixel_sdk/protocol2_packet_handler.h
+[1.507s] -- Installing: /home/yt6/ros2_py_ws/src/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_arduino.h
+[1.507s] -- Installing: /home/yt6/ros2_py_ws/src/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_write.h
+[1.507s] -- Installing: /home/yt6/ros2_py_ws/src/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_linux.h
+[1.507s] -- Installing: /home/yt6/ros2_py_ws/src/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_write.h
+[1.507s] -- Installing: /home/yt6/ros2_py_ws/src/install/dynamixel_sdk/lib/libdynamixel_sdk.so
+[1.508s] -- Installing: /home/yt6/ros2_py_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/environment/library_path.sh
+[1.508s] -- Installing: /home/yt6/ros2_py_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/environment/library_path.dsv
+[1.508s] -- Installing: /home/yt6/ros2_py_ws/src/install/dynamixel_sdk/share/ament_index/resource_index/package_run_dependencies/dynamixel_sdk
+[1.508s] -- Installing: /home/yt6/ros2_py_ws/src/install/dynamixel_sdk/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk
+[1.508s] -- Installing: /home/yt6/ros2_py_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/environment/ament_prefix_path.sh
+[1.509s] -- Installing: /home/yt6/ros2_py_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/environment/ament_prefix_path.dsv
+[1.509s] -- Installing: /home/yt6/ros2_py_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/environment/path.sh
+[1.509s] -- Installing: /home/yt6/ros2_py_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/environment/path.dsv
+[1.509s] -- Installing: /home/yt6/ros2_py_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.bash
+[1.509s] -- Installing: /home/yt6/ros2_py_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.sh
+[1.509s] -- Installing: /home/yt6/ros2_py_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.zsh
+[1.509s] -- Installing: /home/yt6/ros2_py_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.dsv
+[1.510s] -- Installing: /home/yt6/ros2_py_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/package.dsv
+[1.510s] -- Installing: /home/yt6/ros2_py_ws/src/install/dynamixel_sdk/share/ament_index/resource_index/packages/dynamixel_sdk
+[1.510s] -- Installing: /home/yt6/ros2_py_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.510s] -- Installing: /home/yt6/ros2_py_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_libraries-extras.cmake
+[1.510s] -- Installing: /home/yt6/ros2_py_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig.cmake
+[1.510s] -- Installing: /home/yt6/ros2_py_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig-version.cmake
+[1.510s] -- Installing: /home/yt6/ros2_py_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/package.xml
+[1.518s] Invoked command in '/home/yt6/ros2_py_ws/src/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yt6/ros2_py_ws/install/my_vision_pkg:/home/yt6/ros2_py_ws/install/my_py_pkg:/home/yt6/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --install /home/yt6/ros2_py_ws/src/build/dynamixel_sdk
