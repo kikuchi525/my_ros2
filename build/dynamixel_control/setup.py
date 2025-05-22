@@ -1,1 +1,0 @@
-/home/yt6/ros2_py_ws/src/dynamixel_control/setup.py

@@ -19,6 +19,8 @@ setup(
     entry_points={
         'console_scripts': [
             'dynamixel_controller = dynamixel_control.dynamixel_controller:main',
+            'dynamixel_current_controller = dynamixel_control.dynamixel_current_controller:main',
+            'keyboard_current_publisher = dynamixel_control.keyboard_current_publisher:main',
         ],
     },
 )

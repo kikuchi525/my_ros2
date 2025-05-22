@@ -1,0 +1,547 @@
+[0.163s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.163s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f6aaae4fdc0>>, merge_install=False, metas=['./colcon.meta'], mixin=None, mixin_files=None, mixin_verb=('build',), packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=16, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f6aaae4fdc0>, verb_name='build', verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f6aaaddd2e0>)
+[0.300s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.300s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.300s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.300s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.300s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.300s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.300s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/yt6/ros2_py_ws'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(pic) by extensions ['ignore', 'ignore_ament_install']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(pic) by extension 'ignore'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(pic) by extension 'ignore_ament_install'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(pic) by extensions ['colcon_pkg']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(pic) by extension 'colcon_pkg'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(pic) by extensions ['colcon_meta']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(pic) by extension 'colcon_meta'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(pic) by extensions ['ros']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(pic) by extension 'ros'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(pic) by extensions ['cmake', 'python']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(pic) by extension 'cmake'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(pic) by extension 'python'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(pic) by extensions ['python_setup_py']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(pic) by extension 'python_setup_py'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extensions ['ignore', 'ignore_ament_install']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extension 'ignore'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extension 'ignore_ament_install'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extensions ['colcon_pkg']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extension 'colcon_pkg'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extensions ['colcon_meta']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extension 'colcon_meta'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extensions ['ros']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extension 'ros'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extensions ['cmake', 'python']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extension 'cmake'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extension 'python'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extensions ['python_setup_py']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extension 'python_setup_py'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk) by extensions ['ignore', 'ignore_ament_install']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk) by extension 'ignore'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk) by extension 'ignore_ament_install'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk) by extensions ['colcon_pkg']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk) by extension 'colcon_pkg'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk) by extensions ['colcon_meta']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk) by extension 'colcon_meta'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk) by extensions ['ros']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk) by extension 'ros'
+[0.312s] DEBUG:colcon.colcon_core.package_identification:Package 'src/DynamixelSDK/dynamixel_sdk' with type 'ros.ament_cmake' and name 'dynamixel_sdk'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extension 'ignore'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extension 'ignore_ament_install'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extensions ['colcon_pkg']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extension 'colcon_pkg'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extensions ['colcon_meta']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extension 'colcon_meta'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extensions ['ros']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extension 'ros'
+[0.313s] DEBUG:colcon.colcon_core.package_identification:Package 'src/DynamixelSDK/dynamixel_sdk_custom_interfaces' with type 'ros.ament_cmake' and name 'dynamixel_sdk_custom_interfaces'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_examples) by extensions ['ignore', 'ignore_ament_install']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_examples) by extension 'ignore'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_examples) by extension 'ignore_ament_install'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_examples) by extensions ['colcon_pkg']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_examples) by extension 'colcon_pkg'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_examples) by extensions ['colcon_meta']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_examples) by extension 'colcon_meta'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_examples) by extensions ['ros']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_examples) by extension 'ros'
+[0.325s] DEBUG:colcon.colcon_core.package_identification:Package 'src/DynamixelSDK/dynamixel_sdk_examples' with type 'ros.ament_cmake' and name 'dynamixel_sdk_examples'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_control) by extensions ['ignore', 'ignore_ament_install']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_control) by extension 'ignore'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_control) by extension 'ignore_ament_install'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_control) by extensions ['colcon_pkg']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_control) by extension 'colcon_pkg'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_control) by extensions ['colcon_meta']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_control) by extension 'colcon_meta'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_control) by extensions ['ros']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_control) by extension 'ros'
+[0.326s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dynamixel_control' with type 'ros.ament_python' and name 'dynamixel_control'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_publisher) by extensions ['ignore', 'ignore_ament_install']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_publisher) by extension 'ignore'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_publisher) by extension 'ignore_ament_install'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_publisher) by extensions ['colcon_pkg']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_publisher) by extension 'colcon_pkg'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_publisher) by extensions ['colcon_meta']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_publisher) by extension 'colcon_meta'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_publisher) by extensions ['ros']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_publisher) by extension 'ros'
+[0.326s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dynamixel_publisher' with type 'ros.ament_python' and name 'dynamixel_publisher'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extension 'ignore'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extension 'ignore_ament_install'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extensions ['colcon_pkg']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extension 'colcon_pkg'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extensions ['colcon_meta']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extension 'colcon_meta'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extensions ['ros']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extension 'ros'
+[0.327s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_py_pkg' with type 'ros.ament_python' and name 'my_py_pkg'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_vision_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_vision_pkg) by extension 'ignore'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_vision_pkg) by extension 'ignore_ament_install'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_vision_pkg) by extensions ['colcon_pkg']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_vision_pkg) by extension 'colcon_pkg'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_vision_pkg) by extensions ['colcon_meta']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_vision_pkg) by extension 'colcon_meta'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_vision_pkg) by extensions ['ros']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_vision_pkg) by extension 'ros'
+[0.328s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_vision_pkg' with type 'ros.ament_python' and name 'my_vision_pkg'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/nodes) by extensions ['ignore', 'ignore_ament_install']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/nodes) by extension 'ignore'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/nodes) by extension 'ignore_ament_install'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/nodes) by extensions ['colcon_pkg']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/nodes) by extension 'colcon_pkg'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/nodes) by extensions ['colcon_meta']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/nodes) by extension 'colcon_meta'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/nodes) by extensions ['ros']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/nodes) by extension 'ros'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/nodes) by extensions ['cmake', 'python']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/nodes) by extension 'cmake'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/nodes) by extension 'python'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/nodes) by extensions ['python_setup_py']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/nodes) by extension 'python_setup_py'
+[0.329s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.329s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.329s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.329s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.329s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.341s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.341s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.343s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/yt6/ros2_py_ws/install
+[0.343s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/yt6/ros2_py_ws/src/install
+[0.344s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 12 installed packages in /home/yt6/ws_moveit2/install
+[0.346s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 356 installed packages in /opt/ros/humble
+[0.347s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'cmake_args' from command line to 'None'
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'cmake_target' from command line to 'None'
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'cmake_clean_cache' from command line to 'False'
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'cmake_clean_first' from command line to 'False'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'cmake_force_configure' from command line to 'False'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'ament_cmake_args' from command line to 'None'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'catkin_cmake_args' from command line to 'None'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.403s] DEBUG:colcon.colcon_core.verb:Building package 'dynamixel_sdk' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yt6/ros2_py_ws/build/dynamixel_sdk', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yt6/ros2_py_ws/install/dynamixel_sdk', 'merge_install': False, 'path': '/home/yt6/ros2_py_ws/src/DynamixelSDK/dynamixel_sdk', 'symlink_install': False, 'test_result_base': None}
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.403s] DEBUG:colcon.colcon_core.verb:Building package 'dynamixel_sdk_custom_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yt6/ros2_py_ws/build/dynamixel_sdk_custom_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yt6/ros2_py_ws/install/dynamixel_sdk_custom_interfaces', 'merge_install': False, 'path': '/home/yt6/ros2_py_ws/src/DynamixelSDK/dynamixel_sdk_custom_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_args' from command line to 'None'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_target' from command line to 'None'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.403s] DEBUG:colcon.colcon_core.verb:Building package 'my_py_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yt6/ros2_py_ws/build/my_py_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yt6/ros2_py_ws/install/my_py_pkg', 'merge_install': False, 'path': '/home/yt6/ros2_py_ws/src/my_py_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'my_vision_pkg' build argument 'cmake_args' from command line to 'None'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'my_vision_pkg' build argument 'cmake_target' from command line to 'None'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'my_vision_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'my_vision_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'my_vision_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'my_vision_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'my_vision_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'my_vision_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'my_vision_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.404s] DEBUG:colcon.colcon_core.verb:Building package 'my_vision_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yt6/ros2_py_ws/build/my_vision_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yt6/ros2_py_ws/install/my_vision_pkg', 'merge_install': False, 'path': '/home/yt6/ros2_py_ws/src/my_vision_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_control' build argument 'cmake_args' from command line to 'None'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_control' build argument 'cmake_target' from command line to 'None'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.404s] DEBUG:colcon.colcon_core.verb:Building package 'dynamixel_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yt6/ros2_py_ws/build/dynamixel_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yt6/ros2_py_ws/install/dynamixel_control', 'merge_install': False, 'path': '/home/yt6/ros2_py_ws/src/dynamixel_control', 'symlink_install': False, 'test_result_base': None}
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_publisher' build argument 'cmake_args' from command line to 'None'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_publisher' build argument 'cmake_target' from command line to 'None'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_publisher' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_publisher' build argument 'cmake_clean_cache' from command line to 'False'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_publisher' build argument 'cmake_clean_first' from command line to 'False'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_publisher' build argument 'cmake_force_configure' from command line to 'False'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_publisher' build argument 'ament_cmake_args' from command line to 'None'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_publisher' build argument 'catkin_cmake_args' from command line to 'None'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_publisher' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.405s] DEBUG:colcon.colcon_core.verb:Building package 'dynamixel_publisher' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yt6/ros2_py_ws/build/dynamixel_publisher', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yt6/ros2_py_ws/install/dynamixel_publisher', 'merge_install': False, 'path': '/home/yt6/ros2_py_ws/src/dynamixel_publisher', 'symlink_install': False, 'test_result_base': None}
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'cmake_args' from command line to 'None'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'cmake_target' from command line to 'None'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'cmake_clean_cache' from command line to 'False'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'cmake_clean_first' from command line to 'False'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'cmake_force_configure' from command line to 'False'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'ament_cmake_args' from command line to 'None'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'catkin_cmake_args' from command line to 'None'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.405s] DEBUG:colcon.colcon_core.verb:Building package 'dynamixel_sdk_examples' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yt6/ros2_py_ws/build/dynamixel_sdk_examples', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yt6/ros2_py_ws/install/dynamixel_sdk_examples', 'merge_install': False, 'path': '/home/yt6/ros2_py_ws/src/DynamixelSDK/dynamixel_sdk_examples', 'symlink_install': False, 'test_result_base': None}
+[0.405s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.406s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.406s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yt6/ros2_py_ws/src/DynamixelSDK/dynamixel_sdk' with build type 'ament_cmake'
+[0.407s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yt6/ros2_py_ws/src/DynamixelSDK/dynamixel_sdk'
+[0.408s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.408s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.408s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.415s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yt6/ros2_py_ws/src/DynamixelSDK/dynamixel_sdk_custom_interfaces' with build type 'ament_cmake'
+[0.416s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yt6/ros2_py_ws/src/DynamixelSDK/dynamixel_sdk_custom_interfaces'
+[0.416s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.416s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.422s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/yt6/ros2_py_ws/src/my_py_pkg' with build type 'ament_python'
+[0.423s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_py_pkg', 'ament_prefix_path')
+[0.423s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yt6/ros2_py_ws/install/my_py_pkg/share/my_py_pkg/hook/ament_prefix_path.ps1'
+[0.424s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yt6/ros2_py_ws/install/my_py_pkg/share/my_py_pkg/hook/ament_prefix_path.dsv'
+[0.424s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yt6/ros2_py_ws/install/my_py_pkg/share/my_py_pkg/hook/ament_prefix_path.sh'
+[0.425s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.425s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.430s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/yt6/ros2_py_ws/src/my_vision_pkg' with build type 'ament_python'
+[0.430s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_vision_pkg', 'ament_prefix_path')
+[0.430s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yt6/ros2_py_ws/install/my_vision_pkg/share/my_vision_pkg/hook/ament_prefix_path.ps1'
+[0.431s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yt6/ros2_py_ws/install/my_vision_pkg/share/my_vision_pkg/hook/ament_prefix_path.dsv'
+[0.431s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yt6/ros2_py_ws/install/my_vision_pkg/share/my_vision_pkg/hook/ament_prefix_path.sh'
+[0.431s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.432s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.442s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yt6/ros2_py_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yt6/ros2_py_ws/install/dynamixel_publisher:/home/yt6/ros2_py_ws/install/dynamixel_control:/home/yt6/ros2_py_ws/src/install/my_vision_pkg:/home/yt6/ros2_py_ws/src/install/my_py_pkg:/home/yt6/ros2_py_ws/src/install/dynamixel_control:/home/yt6/ros2_py_ws/install/my_vision_pkg:/home/yt6/ros2_py_ws/install/my_py_pkg:/home/yt6/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/yt6/ros2_py_ws/build/dynamixel_sdk -- -j16 -l16
+[0.446s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yt6/ros2_py_ws/build/dynamixel_sdk_custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yt6/ros2_py_ws/install/dynamixel_publisher:/home/yt6/ros2_py_ws/install/dynamixel_control:/home/yt6/ros2_py_ws/src/install/my_vision_pkg:/home/yt6/ros2_py_ws/src/install/my_py_pkg:/home/yt6/ros2_py_ws/src/install/dynamixel_control:/home/yt6/ros2_py_ws/install/my_vision_pkg:/home/yt6/ros2_py_ws/install/my_py_pkg:/home/yt6/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/yt6/ros2_py_ws/build/dynamixel_sdk_custom_interfaces -- -j16 -l16
+[0.656s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/yt6/ros2_py_ws/src/my_py_pkg'
+[0.657s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.657s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.672s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yt6/ros2_py_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yt6/ros2_py_ws/install/dynamixel_publisher:/home/yt6/ros2_py_ws/install/dynamixel_control:/home/yt6/ros2_py_ws/src/install/my_vision_pkg:/home/yt6/ros2_py_ws/src/install/my_py_pkg:/home/yt6/ros2_py_ws/src/install/dynamixel_control:/home/yt6/ros2_py_ws/install/my_vision_pkg:/home/yt6/ros2_py_ws/install/my_py_pkg:/home/yt6/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/yt6/ros2_py_ws/build/dynamixel_sdk -- -j16 -l16
+[0.678s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yt6/ros2_py_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yt6/ros2_py_ws/install/dynamixel_publisher:/home/yt6/ros2_py_ws/install/dynamixel_control:/home/yt6/ros2_py_ws/src/install/my_vision_pkg:/home/yt6/ros2_py_ws/src/install/my_py_pkg:/home/yt6/ros2_py_ws/src/install/dynamixel_control:/home/yt6/ros2_py_ws/install/my_vision_pkg:/home/yt6/ros2_py_ws/install/my_py_pkg:/home/yt6/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --install /home/yt6/ros2_py_ws/build/dynamixel_sdk
+[0.945s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/yt6/ros2_py_ws/src/my_vision_pkg'
+[0.946s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.946s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.966s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_sdk)
+[0.974s] Level 1:colcon.colcon_core.environment:checking '/home/yt6/ros2_py_ws/install/dynamixel_sdk' for CMake module files
+[0.974s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yt6/ros2_py_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yt6/ros2_py_ws/install/dynamixel_publisher:/home/yt6/ros2_py_ws/install/dynamixel_control:/home/yt6/ros2_py_ws/src/install/my_vision_pkg:/home/yt6/ros2_py_ws/src/install/my_py_pkg:/home/yt6/ros2_py_ws/src/install/dynamixel_control:/home/yt6/ros2_py_ws/install/my_vision_pkg:/home/yt6/ros2_py_ws/install/my_py_pkg:/home/yt6/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --install /home/yt6/ros2_py_ws/build/dynamixel_sdk
+[0.975s] Level 1:colcon.colcon_core.environment:checking '/home/yt6/ros2_py_ws/install/dynamixel_sdk' for CMake config files
+[0.975s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk', 'cmake_prefix_path')
+[0.975s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yt6/ros2_py_ws/install/dynamixel_sdk/share/dynamixel_sdk/hook/cmake_prefix_path.ps1'
+[0.975s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yt6/ros2_py_ws/install/dynamixel_sdk/share/dynamixel_sdk/hook/cmake_prefix_path.dsv'
+[0.976s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yt6/ros2_py_ws/install/dynamixel_sdk/share/dynamixel_sdk/hook/cmake_prefix_path.sh'
+[0.976s] Level 1:colcon.colcon_core.environment:checking '/home/yt6/ros2_py_ws/install/dynamixel_sdk/lib'
+[0.976s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk', 'ld_library_path_lib')
+[0.977s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yt6/ros2_py_ws/install/dynamixel_sdk/share/dynamixel_sdk/hook/ld_library_path_lib.ps1'
+[0.977s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yt6/ros2_py_ws/install/dynamixel_sdk/share/dynamixel_sdk/hook/ld_library_path_lib.dsv'
+[0.977s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yt6/ros2_py_ws/install/dynamixel_sdk/share/dynamixel_sdk/hook/ld_library_path_lib.sh'
+[0.977s] Level 1:colcon.colcon_core.environment:checking '/home/yt6/ros2_py_ws/install/dynamixel_sdk/bin'
+[0.977s] Level 1:colcon.colcon_core.environment:checking '/home/yt6/ros2_py_ws/install/dynamixel_sdk/lib/pkgconfig/dynamixel_sdk.pc'
+[0.977s] Level 1:colcon.colcon_core.environment:checking '/home/yt6/ros2_py_ws/install/dynamixel_sdk/lib/python3.8/site-packages'
+[0.978s] Level 1:colcon.colcon_core.environment:checking '/home/yt6/ros2_py_ws/install/dynamixel_sdk/bin'
+[0.978s] INFO:colcon.colcon_core.shell:Creating package script '/home/yt6/ros2_py_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.ps1'
+[0.978s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yt6/ros2_py_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.dsv'
+[0.979s] INFO:colcon.colcon_core.shell:Creating package script '/home/yt6/ros2_py_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.sh'
+[0.979s] INFO:colcon.colcon_core.shell:Creating package script '/home/yt6/ros2_py_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.bash'
+[0.980s] INFO:colcon.colcon_core.shell:Creating package script '/home/yt6/ros2_py_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.zsh'
+[0.980s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yt6/ros2_py_ws/install/dynamixel_sdk/share/colcon-core/packages/dynamixel_sdk)
+[0.981s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_sdk)
+[0.981s] Level 1:colcon.colcon_core.environment:checking '/home/yt6/ros2_py_ws/install/dynamixel_sdk' for CMake module files
+[0.981s] Level 1:colcon.colcon_core.environment:checking '/home/yt6/ros2_py_ws/install/dynamixel_sdk' for CMake config files
+[0.981s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk', 'cmake_prefix_path')
+[0.981s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yt6/ros2_py_ws/install/dynamixel_sdk/share/dynamixel_sdk/hook/cmake_prefix_path.ps1'
+[1.072s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yt6/ros2_py_ws/install/dynamixel_sdk/share/dynamixel_sdk/hook/cmake_prefix_path.dsv'
+[1.073s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yt6/ros2_py_ws/install/dynamixel_sdk/share/dynamixel_sdk/hook/cmake_prefix_path.sh'
+[1.073s] Level 1:colcon.colcon_core.environment:checking '/home/yt6/ros2_py_ws/install/dynamixel_sdk/lib'
+[1.073s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk', 'ld_library_path_lib')
+[1.073s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yt6/ros2_py_ws/install/dynamixel_sdk/share/dynamixel_sdk/hook/ld_library_path_lib.ps1'
+[1.074s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yt6/ros2_py_ws/install/dynamixel_sdk/share/dynamixel_sdk/hook/ld_library_path_lib.dsv'
+[1.074s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yt6/ros2_py_ws/install/dynamixel_sdk/share/dynamixel_sdk/hook/ld_library_path_lib.sh'
+[1.074s] Level 1:colcon.colcon_core.environment:checking '/home/yt6/ros2_py_ws/install/dynamixel_sdk/bin'
+[1.075s] Level 1:colcon.colcon_core.environment:checking '/home/yt6/ros2_py_ws/install/dynamixel_sdk/lib/pkgconfig/dynamixel_sdk.pc'
+[1.075s] Level 1:colcon.colcon_core.environment:checking '/home/yt6/ros2_py_ws/install/dynamixel_sdk/lib/python3.8/site-packages'
+[1.075s] Level 1:colcon.colcon_core.environment:checking '/home/yt6/ros2_py_ws/install/dynamixel_sdk/bin'
+[1.075s] INFO:colcon.colcon_core.shell:Creating package script '/home/yt6/ros2_py_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.ps1'
+[1.076s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yt6/ros2_py_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.dsv'
+[1.076s] INFO:colcon.colcon_core.shell:Creating package script '/home/yt6/ros2_py_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.sh'
+[1.076s] INFO:colcon.colcon_core.shell:Creating package script '/home/yt6/ros2_py_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.bash'
+[1.077s] INFO:colcon.colcon_core.shell:Creating package script '/home/yt6/ros2_py_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.zsh'
+[1.077s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yt6/ros2_py_ws/install/dynamixel_sdk/share/colcon-core/packages/dynamixel_sdk)
+[1.078s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yt6/ros2_py_ws/build/dynamixel_sdk_custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yt6/ros2_py_ws/install/dynamixel_publisher:/home/yt6/ros2_py_ws/install/dynamixel_control:/home/yt6/ros2_py_ws/src/install/my_vision_pkg:/home/yt6/ros2_py_ws/src/install/my_py_pkg:/home/yt6/ros2_py_ws/src/install/dynamixel_control:/home/yt6/ros2_py_ws/install/my_vision_pkg:/home/yt6/ros2_py_ws/install/my_py_pkg:/home/yt6/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/yt6/ros2_py_ws/build/dynamixel_sdk_custom_interfaces -- -j16 -l16
+[1.081s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yt6/ros2_py_ws/build/dynamixel_sdk_custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yt6/ros2_py_ws/install/dynamixel_publisher:/home/yt6/ros2_py_ws/install/dynamixel_control:/home/yt6/ros2_py_ws/src/install/my_vision_pkg:/home/yt6/ros2_py_ws/src/install/my_py_pkg:/home/yt6/ros2_py_ws/src/install/dynamixel_control:/home/yt6/ros2_py_ws/install/my_vision_pkg:/home/yt6/ros2_py_ws/install/my_py_pkg:/home/yt6/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --install /home/yt6/ros2_py_ws/build/dynamixel_sdk_custom_interfaces
+[1.139s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_sdk_custom_interfaces)
+[1.140s] Level 1:colcon.colcon_core.environment:checking '/home/yt6/ros2_py_ws/install/dynamixel_sdk_custom_interfaces' for CMake module files
+[1.140s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yt6/ros2_py_ws/build/dynamixel_sdk_custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yt6/ros2_py_ws/install/dynamixel_publisher:/home/yt6/ros2_py_ws/install/dynamixel_control:/home/yt6/ros2_py_ws/src/install/my_vision_pkg:/home/yt6/ros2_py_ws/src/install/my_py_pkg:/home/yt6/ros2_py_ws/src/install/dynamixel_control:/home/yt6/ros2_py_ws/install/my_vision_pkg:/home/yt6/ros2_py_ws/install/my_py_pkg:/home/yt6/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --install /home/yt6/ros2_py_ws/build/dynamixel_sdk_custom_interfaces
+[1.141s] Level 1:colcon.colcon_core.environment:checking '/home/yt6/ros2_py_ws/install/dynamixel_sdk_custom_interfaces' for CMake config files
+[1.142s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk_custom_interfaces', 'cmake_prefix_path')
+[1.142s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yt6/ros2_py_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/cmake_prefix_path.ps1'
+[1.143s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yt6/ros2_py_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/cmake_prefix_path.dsv'
+[1.143s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yt6/ros2_py_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/cmake_prefix_path.sh'
+[1.144s] Level 1:colcon.colcon_core.environment:checking '/home/yt6/ros2_py_ws/install/dynamixel_sdk_custom_interfaces/lib'
+[1.144s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk_custom_interfaces', 'ld_library_path_lib')
+[1.144s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yt6/ros2_py_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/ld_library_path_lib.ps1'
+[1.144s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yt6/ros2_py_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/ld_library_path_lib.dsv'
+[1.145s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yt6/ros2_py_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/ld_library_path_lib.sh'
+[1.145s] Level 1:colcon.colcon_core.environment:checking '/home/yt6/ros2_py_ws/install/dynamixel_sdk_custom_interfaces/bin'
+[1.145s] Level 1:colcon.colcon_core.environment:checking '/home/yt6/ros2_py_ws/install/dynamixel_sdk_custom_interfaces/lib/pkgconfig/dynamixel_sdk_custom_interfaces.pc'
+[1.145s] Level 1:colcon.colcon_core.environment:checking '/home/yt6/ros2_py_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages'
+[1.145s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk_custom_interfaces', 'pythonpath')
+[1.145s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yt6/ros2_py_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/pythonpath.ps1'
+[1.146s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yt6/ros2_py_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/pythonpath.dsv'
+[1.146s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yt6/ros2_py_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/pythonpath.sh'
+[1.146s] Level 1:colcon.colcon_core.environment:checking '/home/yt6/ros2_py_ws/install/dynamixel_sdk_custom_interfaces/bin'
+[1.147s] INFO:colcon.colcon_core.shell:Creating package script '/home/yt6/ros2_py_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.ps1'
+[1.147s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yt6/ros2_py_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.dsv'
+[1.147s] INFO:colcon.colcon_core.shell:Creating package script '/home/yt6/ros2_py_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.sh'
+[1.148s] INFO:colcon.colcon_core.shell:Creating package script '/home/yt6/ros2_py_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.bash'
+[1.148s] INFO:colcon.colcon_core.shell:Creating package script '/home/yt6/ros2_py_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.zsh'
+[1.148s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yt6/ros2_py_ws/install/dynamixel_sdk_custom_interfaces/share/colcon-core/packages/dynamixel_sdk_custom_interfaces)
+[1.149s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_sdk_custom_interfaces)
+[1.149s] Level 1:colcon.colcon_core.environment:checking '/home/yt6/ros2_py_ws/install/dynamixel_sdk_custom_interfaces' for CMake module files
+[1.149s] Level 1:colcon.colcon_core.environment:checking '/home/yt6/ros2_py_ws/install/dynamixel_sdk_custom_interfaces' for CMake config files
+[1.150s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk_custom_interfaces', 'cmake_prefix_path')
+[1.150s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yt6/ros2_py_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/cmake_prefix_path.ps1'
+[1.150s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yt6/ros2_py_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/cmake_prefix_path.dsv'
+[1.150s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yt6/ros2_py_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/cmake_prefix_path.sh'
+[1.151s] Level 1:colcon.colcon_core.environment:checking '/home/yt6/ros2_py_ws/install/dynamixel_sdk_custom_interfaces/lib'
+[1.151s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk_custom_interfaces', 'ld_library_path_lib')
+[1.151s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yt6/ros2_py_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/ld_library_path_lib.ps1'
+[1.151s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yt6/ros2_py_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/ld_library_path_lib.dsv'
+[1.152s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yt6/ros2_py_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/ld_library_path_lib.sh'
+[1.152s] Level 1:colcon.colcon_core.environment:checking '/home/yt6/ros2_py_ws/install/dynamixel_sdk_custom_interfaces/bin'
+[1.152s] Level 1:colcon.colcon_core.environment:checking '/home/yt6/ros2_py_ws/install/dynamixel_sdk_custom_interfaces/lib/pkgconfig/dynamixel_sdk_custom_interfaces.pc'
+[1.152s] Level 1:colcon.colcon_core.environment:checking '/home/yt6/ros2_py_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages'
+[1.152s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk_custom_interfaces', 'pythonpath')
+[1.153s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yt6/ros2_py_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/pythonpath.ps1'
+[1.153s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yt6/ros2_py_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/pythonpath.dsv'
+[1.153s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yt6/ros2_py_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/pythonpath.sh'
+[1.153s] Level 1:colcon.colcon_core.environment:checking '/home/yt6/ros2_py_ws/install/dynamixel_sdk_custom_interfaces/bin'
+[1.154s] INFO:colcon.colcon_core.shell:Creating package script '/home/yt6/ros2_py_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.ps1'
+[1.154s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yt6/ros2_py_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.dsv'
+[1.154s] INFO:colcon.colcon_core.shell:Creating package script '/home/yt6/ros2_py_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.sh'
+[1.155s] INFO:colcon.colcon_core.shell:Creating package script '/home/yt6/ros2_py_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.bash'
+[1.155s] INFO:colcon.colcon_core.shell:Creating package script '/home/yt6/ros2_py_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.zsh'
+[1.155s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yt6/ros2_py_ws/install/dynamixel_sdk_custom_interfaces/share/colcon-core/packages/dynamixel_sdk_custom_interfaces)
+[1.156s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/yt6/ros2_py_ws/src/dynamixel_control' with build type 'ament_python'
+[1.156s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_control', 'ament_prefix_path')
+[1.156s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yt6/ros2_py_ws/install/dynamixel_control/share/dynamixel_control/hook/ament_prefix_path.ps1'
+[1.157s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yt6/ros2_py_ws/install/dynamixel_control/share/dynamixel_control/hook/ament_prefix_path.dsv'
+[1.157s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yt6/ros2_py_ws/install/dynamixel_control/share/dynamixel_control/hook/ament_prefix_path.sh'
+[1.157s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.157s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.164s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/yt6/ros2_py_ws/src/dynamixel_publisher' with build type 'ament_python'
+[1.164s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_publisher', 'ament_prefix_path')
+[1.164s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yt6/ros2_py_ws/install/dynamixel_publisher/share/dynamixel_publisher/hook/ament_prefix_path.ps1'
+[1.165s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yt6/ros2_py_ws/install/dynamixel_publisher/share/dynamixel_publisher/hook/ament_prefix_path.dsv'
+[1.165s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yt6/ros2_py_ws/install/dynamixel_publisher/share/dynamixel_publisher/hook/ament_prefix_path.sh'
+[1.166s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.166s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.173s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yt6/ros2_py_ws/src/DynamixelSDK/dynamixel_sdk_examples' with build type 'ament_cmake'
+[1.173s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yt6/ros2_py_ws/src/DynamixelSDK/dynamixel_sdk_examples'
+[1.173s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.174s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.388s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'dynamixel_control' doesn't explicitly install a marker in the package index (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[1.388s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/yt6/ros2_py_ws/src/dynamixel_control'
+[1.389s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.389s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.599s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/yt6/ros2_py_ws/src/dynamixel_publisher'
+[1.600s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.600s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.611s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yt6/ros2_py_ws/build/dynamixel_sdk_examples': CMAKE_PREFIX_PATH=/home/yt6/ros2_py_ws/install/dynamixel_sdk_custom_interfaces:/home/yt6/ros2_py_ws/install/dynamixel_sdk:/home/yt6/ros2_py_ws/src/install/dynamixel_sdk_examples:/home/yt6/ros2_py_ws/src/install/dynamixel_sdk_custom_interfaces:/home/yt6/ros2_py_ws/src/install/dynamixel_sdk:/home/yt6/ros2_py_ws/install/dynamixel_sdk_examples:/home/yt6/ws_moveit2/install/rviz_marker_tools:/home/yt6/ws_moveit2/install/moveit_resources_prbt_support:/home/yt6/ws_moveit2/install/moveit_resources:/home/yt6/ws_moveit2/install/moveit_resources_pr2_description:/home/yt6/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/yt6/ws_moveit2/install/moveit_resources_panda_description:/home/yt6/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/yt6/ws_moveit2/install/moveit_resources_fanuc_description:/home/yt6/ws_moveit2/install/moveit_msgs:/home/yt6/ws_moveit2/install/moveit_common:/home/yt6/ros2_py_ws/install/dynamixel_publisher:/home/yt6/ros2_py_ws/install/dynamixel_control:/home/yt6/ros2_py_ws/src/install/my_vision_pkg:/home/yt6/ros2_py_ws/src/install/my_py_pkg:/home/yt6/ros2_py_ws/src/install/dynamixel_control:/home/yt6/ros2_py_ws/install/my_vision_pkg:/home/yt6/ros2_py_ws/install/my_py_pkg:/home/yt6/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble LD_LIBRARY_PATH=/home/yt6/ros2_py_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/yt6/ros2_py_ws/install/dynamixel_sdk/lib:/home/yt6/ros2_py_ws/src/install/dynamixel_sdk_custom_interfaces/lib:/home/yt6/ros2_py_ws/src/install/dynamixel_sdk/lib:/home/yt6/ws_moveit2/install/rviz_marker_tools/lib:/home/yt6/ws_moveit2/install/moveit_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/yt6/ros2_py_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:/home/yt6/ros2_py_ws/build/dynamixel_publisher:/home/yt6/ros2_py_ws/build/dynamixel_control:/home/yt6/ros2_py_ws/install/dynamixel_publisher/lib/python3.8/site-packages:/home/yt6/ros2_py_ws/install/dynamixel_control/lib/python3.8/site-packages:/home/yt6/ros2_py_ws/src/install/my_vision_pkg/lib/python3.8/site-packages:/home/yt6/ros2_py_ws/src/install/my_py_pkg/lib/python3.8/site-packages:/home/yt6/ros2_py_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:/home/yt6/ros2_py_ws/src/install/dynamixel_control/lib/python3.8/site-packages:/home/yt6/ros2_py_ws/build/my_vision_pkg:/home/yt6/ros2_py_ws/install/my_vision_pkg/lib/python3.8/site-packages:/home/yt6/ros2_py_ws/build/my_py_pkg:/home/yt6/ros2_py_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/yt6/ws_moveit2/install/moveit_msgs/lib/python3.8/site-packages:/home/yt6/ws_moveit2/install/moveit_configs_utils/lib/python3.8/site-packages:/opt/ros/humble/lib/python3.8/site-packages /usr/bin/cmake --build /home/yt6/ros2_py_ws/build/dynamixel_sdk_examples -- -j16 -l16
+[1.617s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yt6/ros2_py_ws/src/my_py_pkg': PYTHONPATH=/home/yt6/ros2_py_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yt6/ros2_py_ws/install/my_py_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/yt6/ros2_py_ws/build/my_py_pkg/build install --record /home/yt6/ros2_py_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data
+[1.620s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yt6/ros2_py_ws/src/my_vision_pkg': PYTHONPATH=/home/yt6/ros2_py_ws/build/my_vision_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yt6/ros2_py_ws/install/my_vision_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_vision_pkg build --build-base /home/yt6/ros2_py_ws/build/my_vision_pkg/build install --record /home/yt6/ros2_py_ws/build/my_vision_pkg/install.log --single-version-externally-managed install_data
+[1.651s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yt6/ros2_py_ws/build/dynamixel_sdk_examples' returned '0': CMAKE_PREFIX_PATH=/home/yt6/ros2_py_ws/install/dynamixel_sdk_custom_interfaces:/home/yt6/ros2_py_ws/install/dynamixel_sdk:/home/yt6/ros2_py_ws/src/install/dynamixel_sdk_examples:/home/yt6/ros2_py_ws/src/install/dynamixel_sdk_custom_interfaces:/home/yt6/ros2_py_ws/src/install/dynamixel_sdk:/home/yt6/ros2_py_ws/install/dynamixel_sdk_examples:/home/yt6/ws_moveit2/install/rviz_marker_tools:/home/yt6/ws_moveit2/install/moveit_resources_prbt_support:/home/yt6/ws_moveit2/install/moveit_resources:/home/yt6/ws_moveit2/install/moveit_resources_pr2_description:/home/yt6/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/yt6/ws_moveit2/install/moveit_resources_panda_description:/home/yt6/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/yt6/ws_moveit2/install/moveit_resources_fanuc_description:/home/yt6/ws_moveit2/install/moveit_msgs:/home/yt6/ws_moveit2/install/moveit_common:/home/yt6/ros2_py_ws/install/dynamixel_publisher:/home/yt6/ros2_py_ws/install/dynamixel_control:/home/yt6/ros2_py_ws/src/install/my_vision_pkg:/home/yt6/ros2_py_ws/src/install/my_py_pkg:/home/yt6/ros2_py_ws/src/install/dynamixel_control:/home/yt6/ros2_py_ws/install/my_vision_pkg:/home/yt6/ros2_py_ws/install/my_py_pkg:/home/yt6/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble LD_LIBRARY_PATH=/home/yt6/ros2_py_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/yt6/ros2_py_ws/install/dynamixel_sdk/lib:/home/yt6/ros2_py_ws/src/install/dynamixel_sdk_custom_interfaces/lib:/home/yt6/ros2_py_ws/src/install/dynamixel_sdk/lib:/home/yt6/ws_moveit2/install/rviz_marker_tools/lib:/home/yt6/ws_moveit2/install/moveit_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/yt6/ros2_py_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:/home/yt6/ros2_py_ws/build/dynamixel_publisher:/home/yt6/ros2_py_ws/build/dynamixel_control:/home/yt6/ros2_py_ws/install/dynamixel_publisher/lib/python3.8/site-packages:/home/yt6/ros2_py_ws/install/dynamixel_control/lib/python3.8/site-packages:/home/yt6/ros2_py_ws/src/install/my_vision_pkg/lib/python3.8/site-packages:/home/yt6/ros2_py_ws/src/install/my_py_pkg/lib/python3.8/site-packages:/home/yt6/ros2_py_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:/home/yt6/ros2_py_ws/src/install/dynamixel_control/lib/python3.8/site-packages:/home/yt6/ros2_py_ws/build/my_vision_pkg:/home/yt6/ros2_py_ws/install/my_vision_pkg/lib/python3.8/site-packages:/home/yt6/ros2_py_ws/build/my_py_pkg:/home/yt6/ros2_py_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/yt6/ws_moveit2/install/moveit_msgs/lib/python3.8/site-packages:/home/yt6/ws_moveit2/install/moveit_configs_utils/lib/python3.8/site-packages:/opt/ros/humble/lib/python3.8/site-packages /usr/bin/cmake --build /home/yt6/ros2_py_ws/build/dynamixel_sdk_examples -- -j16 -l16
+[1.655s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yt6/ros2_py_ws/build/dynamixel_sdk_examples': CMAKE_PREFIX_PATH=/home/yt6/ros2_py_ws/install/dynamixel_sdk_custom_interfaces:/home/yt6/ros2_py_ws/install/dynamixel_sdk:/home/yt6/ros2_py_ws/src/install/dynamixel_sdk_examples:/home/yt6/ros2_py_ws/src/install/dynamixel_sdk_custom_interfaces:/home/yt6/ros2_py_ws/src/install/dynamixel_sdk:/home/yt6/ros2_py_ws/install/dynamixel_sdk_examples:/home/yt6/ws_moveit2/install/rviz_marker_tools:/home/yt6/ws_moveit2/install/moveit_resources_prbt_support:/home/yt6/ws_moveit2/install/moveit_resources:/home/yt6/ws_moveit2/install/moveit_resources_pr2_description:/home/yt6/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/yt6/ws_moveit2/install/moveit_resources_panda_description:/home/yt6/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/yt6/ws_moveit2/install/moveit_resources_fanuc_description:/home/yt6/ws_moveit2/install/moveit_msgs:/home/yt6/ws_moveit2/install/moveit_common:/home/yt6/ros2_py_ws/install/dynamixel_publisher:/home/yt6/ros2_py_ws/install/dynamixel_control:/home/yt6/ros2_py_ws/src/install/my_vision_pkg:/home/yt6/ros2_py_ws/src/install/my_py_pkg:/home/yt6/ros2_py_ws/src/install/dynamixel_control:/home/yt6/ros2_py_ws/install/my_vision_pkg:/home/yt6/ros2_py_ws/install/my_py_pkg:/home/yt6/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble LD_LIBRARY_PATH=/home/yt6/ros2_py_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/yt6/ros2_py_ws/install/dynamixel_sdk/lib:/home/yt6/ros2_py_ws/src/install/dynamixel_sdk_custom_interfaces/lib:/home/yt6/ros2_py_ws/src/install/dynamixel_sdk/lib:/home/yt6/ws_moveit2/install/rviz_marker_tools/lib:/home/yt6/ws_moveit2/install/moveit_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/yt6/ros2_py_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:/home/yt6/ros2_py_ws/build/dynamixel_publisher:/home/yt6/ros2_py_ws/build/dynamixel_control:/home/yt6/ros2_py_ws/install/dynamixel_publisher/lib/python3.8/site-packages:/home/yt6/ros2_py_ws/install/dynamixel_control/lib/python3.8/site-packages:/home/yt6/ros2_py_ws/src/install/my_vision_pkg/lib/python3.8/site-packages:/home/yt6/ros2_py_ws/src/install/my_py_pkg/lib/python3.8/site-packages:/home/yt6/ros2_py_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:/home/yt6/ros2_py_ws/src/install/dynamixel_control/lib/python3.8/site-packages:/home/yt6/ros2_py_ws/build/my_vision_pkg:/home/yt6/ros2_py_ws/install/my_vision_pkg/lib/python3.8/site-packages:/home/yt6/ros2_py_ws/build/my_py_pkg:/home/yt6/ros2_py_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/yt6/ws_moveit2/install/moveit_msgs/lib/python3.8/site-packages:/home/yt6/ws_moveit2/install/moveit_configs_utils/lib/python3.8/site-packages:/opt/ros/humble/lib/python3.8/site-packages /usr/bin/cmake --install /home/yt6/ros2_py_ws/build/dynamixel_sdk_examples
+[1.667s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_sdk_examples)
+[1.668s] Level 1:colcon.colcon_core.environment:checking '/home/yt6/ros2_py_ws/install/dynamixel_sdk_examples' for CMake module files
+[1.668s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yt6/ros2_py_ws/build/dynamixel_sdk_examples' returned '0': CMAKE_PREFIX_PATH=/home/yt6/ros2_py_ws/install/dynamixel_sdk_custom_interfaces:/home/yt6/ros2_py_ws/install/dynamixel_sdk:/home/yt6/ros2_py_ws/src/install/dynamixel_sdk_examples:/home/yt6/ros2_py_ws/src/install/dynamixel_sdk_custom_interfaces:/home/yt6/ros2_py_ws/src/install/dynamixel_sdk:/home/yt6/ros2_py_ws/install/dynamixel_sdk_examples:/home/yt6/ws_moveit2/install/rviz_marker_tools:/home/yt6/ws_moveit2/install/moveit_resources_prbt_support:/home/yt6/ws_moveit2/install/moveit_resources:/home/yt6/ws_moveit2/install/moveit_resources_pr2_description:/home/yt6/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/yt6/ws_moveit2/install/moveit_resources_panda_description:/home/yt6/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/yt6/ws_moveit2/install/moveit_resources_fanuc_description:/home/yt6/ws_moveit2/install/moveit_msgs:/home/yt6/ws_moveit2/install/moveit_common:/home/yt6/ros2_py_ws/install/dynamixel_publisher:/home/yt6/ros2_py_ws/install/dynamixel_control:/home/yt6/ros2_py_ws/src/install/my_vision_pkg:/home/yt6/ros2_py_ws/src/install/my_py_pkg:/home/yt6/ros2_py_ws/src/install/dynamixel_control:/home/yt6/ros2_py_ws/install/my_vision_pkg:/home/yt6/ros2_py_ws/install/my_py_pkg:/home/yt6/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble LD_LIBRARY_PATH=/home/yt6/ros2_py_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/yt6/ros2_py_ws/install/dynamixel_sdk/lib:/home/yt6/ros2_py_ws/src/install/dynamixel_sdk_custom_interfaces/lib:/home/yt6/ros2_py_ws/src/install/dynamixel_sdk/lib:/home/yt6/ws_moveit2/install/rviz_marker_tools/lib:/home/yt6/ws_moveit2/install/moveit_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/yt6/ros2_py_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:/home/yt6/ros2_py_ws/build/dynamixel_publisher:/home/yt6/ros2_py_ws/build/dynamixel_control:/home/yt6/ros2_py_ws/install/dynamixel_publisher/lib/python3.8/site-packages:/home/yt6/ros2_py_ws/install/dynamixel_control/lib/python3.8/site-packages:/home/yt6/ros2_py_ws/src/install/my_vision_pkg/lib/python3.8/site-packages:/home/yt6/ros2_py_ws/src/install/my_py_pkg/lib/python3.8/site-packages:/home/yt6/ros2_py_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:/home/yt6/ros2_py_ws/src/install/dynamixel_control/lib/python3.8/site-packages:/home/yt6/ros2_py_ws/build/my_vision_pkg:/home/yt6/ros2_py_ws/install/my_vision_pkg/lib/python3.8/site-packages:/home/yt6/ros2_py_ws/build/my_py_pkg:/home/yt6/ros2_py_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/yt6/ws_moveit2/install/moveit_msgs/lib/python3.8/site-packages:/home/yt6/ws_moveit2/install/moveit_configs_utils/lib/python3.8/site-packages:/opt/ros/humble/lib/python3.8/site-packages /usr/bin/cmake --install /home/yt6/ros2_py_ws/build/dynamixel_sdk_examples
+[1.669s] Level 1:colcon.colcon_core.environment:checking '/home/yt6/ros2_py_ws/install/dynamixel_sdk_examples' for CMake config files
+[1.669s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk_examples', 'cmake_prefix_path')
+[1.669s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yt6/ros2_py_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/hook/cmake_prefix_path.ps1'
+[1.669s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yt6/ros2_py_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/hook/cmake_prefix_path.dsv'
+[1.670s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yt6/ros2_py_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/hook/cmake_prefix_path.sh'
+[1.670s] Level 1:colcon.colcon_core.environment:checking '/home/yt6/ros2_py_ws/install/dynamixel_sdk_examples/lib'
+[1.670s] Level 1:colcon.colcon_core.environment:checking '/home/yt6/ros2_py_ws/install/dynamixel_sdk_examples/bin'
+[1.670s] Level 1:colcon.colcon_core.environment:checking '/home/yt6/ros2_py_ws/install/dynamixel_sdk_examples/lib/pkgconfig/dynamixel_sdk_examples.pc'
+[1.671s] Level 1:colcon.colcon_core.environment:checking '/home/yt6/ros2_py_ws/install/dynamixel_sdk_examples/lib/python3.8/site-packages'
+[1.671s] Level 1:colcon.colcon_core.environment:checking '/home/yt6/ros2_py_ws/install/dynamixel_sdk_examples/bin'
+[1.671s] INFO:colcon.colcon_core.shell:Creating package script '/home/yt6/ros2_py_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.ps1'
+[1.671s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yt6/ros2_py_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.dsv'
+[1.672s] INFO:colcon.colcon_core.shell:Creating package script '/home/yt6/ros2_py_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.sh'
+[1.672s] INFO:colcon.colcon_core.shell:Creating package script '/home/yt6/ros2_py_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.bash'
+[1.673s] INFO:colcon.colcon_core.shell:Creating package script '/home/yt6/ros2_py_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.zsh'
+[1.673s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yt6/ros2_py_ws/install/dynamixel_sdk_examples/share/colcon-core/packages/dynamixel_sdk_examples)
+[1.673s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_sdk_examples)
+[1.674s] Level 1:colcon.colcon_core.environment:checking '/home/yt6/ros2_py_ws/install/dynamixel_sdk_examples' for CMake module files
+[1.674s] Level 1:colcon.colcon_core.environment:checking '/home/yt6/ros2_py_ws/install/dynamixel_sdk_examples' for CMake config files
+[1.674s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk_examples', 'cmake_prefix_path')
+[1.674s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yt6/ros2_py_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/hook/cmake_prefix_path.ps1'
+[1.686s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yt6/ros2_py_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/hook/cmake_prefix_path.dsv'
+[1.686s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yt6/ros2_py_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/hook/cmake_prefix_path.sh'
+[1.687s] Level 1:colcon.colcon_core.environment:checking '/home/yt6/ros2_py_ws/install/dynamixel_sdk_examples/lib'
+[1.687s] Level 1:colcon.colcon_core.environment:checking '/home/yt6/ros2_py_ws/install/dynamixel_sdk_examples/bin'
+[1.687s] Level 1:colcon.colcon_core.environment:checking '/home/yt6/ros2_py_ws/install/dynamixel_sdk_examples/lib/pkgconfig/dynamixel_sdk_examples.pc'
+[1.687s] Level 1:colcon.colcon_core.environment:checking '/home/yt6/ros2_py_ws/install/dynamixel_sdk_examples/lib/python3.8/site-packages'
+[1.688s] Level 1:colcon.colcon_core.environment:checking '/home/yt6/ros2_py_ws/install/dynamixel_sdk_examples/bin'
+[1.688s] INFO:colcon.colcon_core.shell:Creating package script '/home/yt6/ros2_py_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.ps1'
+[1.688s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yt6/ros2_py_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.dsv'
+[1.689s] INFO:colcon.colcon_core.shell:Creating package script '/home/yt6/ros2_py_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.sh'
+[1.689s] INFO:colcon.colcon_core.shell:Creating package script '/home/yt6/ros2_py_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.bash'
+[1.690s] INFO:colcon.colcon_core.shell:Creating package script '/home/yt6/ros2_py_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.zsh'
+[1.690s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yt6/ros2_py_ws/install/dynamixel_sdk_examples/share/colcon-core/packages/dynamixel_sdk_examples)
+[1.877s] Level 1:colcon.colcon_core.environment:checking '/home/yt6/ros2_py_ws/install/my_vision_pkg' for CMake module files
+[1.878s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yt6/ros2_py_ws/src/my_vision_pkg' returned '0': PYTHONPATH=/home/yt6/ros2_py_ws/build/my_vision_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yt6/ros2_py_ws/install/my_vision_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_vision_pkg build --build-base /home/yt6/ros2_py_ws/build/my_vision_pkg/build install --record /home/yt6/ros2_py_ws/build/my_vision_pkg/install.log --single-version-externally-managed install_data
+[1.878s] Level 1:colcon.colcon_core.environment:checking '/home/yt6/ros2_py_ws/install/my_vision_pkg' for CMake config files
+[1.879s] Level 1:colcon.colcon_core.environment:checking '/home/yt6/ros2_py_ws/install/my_vision_pkg/lib'
+[1.879s] Level 1:colcon.colcon_core.environment:checking '/home/yt6/ros2_py_ws/install/my_vision_pkg/bin'
+[1.879s] Level 1:colcon.colcon_core.environment:checking '/home/yt6/ros2_py_ws/install/my_vision_pkg/lib/pkgconfig/my_vision_pkg.pc'
+[1.879s] Level 1:colcon.colcon_core.environment:checking '/home/yt6/ros2_py_ws/install/my_vision_pkg/lib/python3.8/site-packages'
+[1.879s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_vision_pkg', 'pythonpath')
+[1.879s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yt6/ros2_py_ws/install/my_vision_pkg/share/my_vision_pkg/hook/pythonpath.ps1'
+[1.880s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yt6/ros2_py_ws/install/my_vision_pkg/share/my_vision_pkg/hook/pythonpath.dsv'
+[1.880s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yt6/ros2_py_ws/install/my_vision_pkg/share/my_vision_pkg/hook/pythonpath.sh'
+[1.881s] Level 1:colcon.colcon_core.environment:checking '/home/yt6/ros2_py_ws/install/my_vision_pkg/bin'
+[1.881s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_vision_pkg)
+[1.881s] INFO:colcon.colcon_core.shell:Creating package script '/home/yt6/ros2_py_ws/install/my_vision_pkg/share/my_vision_pkg/package.ps1'
+[1.882s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yt6/ros2_py_ws/install/my_vision_pkg/share/my_vision_pkg/package.dsv'
+[1.882s] INFO:colcon.colcon_core.shell:Creating package script '/home/yt6/ros2_py_ws/install/my_vision_pkg/share/my_vision_pkg/package.sh'
+[1.882s] INFO:colcon.colcon_core.shell:Creating package script '/home/yt6/ros2_py_ws/install/my_vision_pkg/share/my_vision_pkg/package.bash'
+[1.883s] INFO:colcon.colcon_core.shell:Creating package script '/home/yt6/ros2_py_ws/install/my_vision_pkg/share/my_vision_pkg/package.zsh'
+[1.883s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yt6/ros2_py_ws/install/my_vision_pkg/share/colcon-core/packages/my_vision_pkg)
+[1.895s] Level 1:colcon.colcon_core.environment:checking '/home/yt6/ros2_py_ws/install/my_py_pkg' for CMake module files
+[1.896s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yt6/ros2_py_ws/src/my_py_pkg' returned '0': PYTHONPATH=/home/yt6/ros2_py_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yt6/ros2_py_ws/install/my_py_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/yt6/ros2_py_ws/build/my_py_pkg/build install --record /home/yt6/ros2_py_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data
+[1.896s] Level 1:colcon.colcon_core.environment:checking '/home/yt6/ros2_py_ws/install/my_py_pkg' for CMake config files
+[1.897s] Level 1:colcon.colcon_core.environment:checking '/home/yt6/ros2_py_ws/install/my_py_pkg/lib'
+[1.897s] Level 1:colcon.colcon_core.environment:checking '/home/yt6/ros2_py_ws/install/my_py_pkg/bin'
+[1.897s] Level 1:colcon.colcon_core.environment:checking '/home/yt6/ros2_py_ws/install/my_py_pkg/lib/pkgconfig/my_py_pkg.pc'
+[1.898s] Level 1:colcon.colcon_core.environment:checking '/home/yt6/ros2_py_ws/install/my_py_pkg/lib/python3.8/site-packages'
+[1.898s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_py_pkg', 'pythonpath')
+[1.898s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yt6/ros2_py_ws/install/my_py_pkg/share/my_py_pkg/hook/pythonpath.ps1'
+[1.898s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yt6/ros2_py_ws/install/my_py_pkg/share/my_py_pkg/hook/pythonpath.dsv'
+[1.899s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yt6/ros2_py_ws/install/my_py_pkg/share/my_py_pkg/hook/pythonpath.sh'
+[1.899s] Level 1:colcon.colcon_core.environment:checking '/home/yt6/ros2_py_ws/install/my_py_pkg/bin'
+[1.899s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_py_pkg)
+[1.900s] INFO:colcon.colcon_core.shell:Creating package script '/home/yt6/ros2_py_ws/install/my_py_pkg/share/my_py_pkg/package.ps1'
+[1.900s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yt6/ros2_py_ws/install/my_py_pkg/share/my_py_pkg/package.dsv'
+[1.901s] INFO:colcon.colcon_core.shell:Creating package script '/home/yt6/ros2_py_ws/install/my_py_pkg/share/my_py_pkg/package.sh'
+[1.901s] INFO:colcon.colcon_core.shell:Creating package script '/home/yt6/ros2_py_ws/install/my_py_pkg/share/my_py_pkg/package.bash'
+[1.901s] INFO:colcon.colcon_core.shell:Creating package script '/home/yt6/ros2_py_ws/install/my_py_pkg/share/my_py_pkg/package.zsh'
+[1.902s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yt6/ros2_py_ws/install/my_py_pkg/share/colcon-core/packages/my_py_pkg)
+[1.957s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yt6/ros2_py_ws/src/dynamixel_control': CMAKE_PREFIX_PATH=/home/yt6/ros2_py_ws/install/dynamixel_sdk_custom_interfaces:/home/yt6/ros2_py_ws/install/dynamixel_sdk:/home/yt6/ros2_py_ws/src/install/dynamixel_sdk_examples:/home/yt6/ros2_py_ws/src/install/dynamixel_sdk_custom_interfaces:/home/yt6/ros2_py_ws/src/install/dynamixel_sdk:/home/yt6/ros2_py_ws/install/dynamixel_sdk_examples:/home/yt6/ws_moveit2/install/rviz_marker_tools:/home/yt6/ws_moveit2/install/moveit_resources_prbt_support:/home/yt6/ws_moveit2/install/moveit_resources:/home/yt6/ws_moveit2/install/moveit_resources_pr2_description:/home/yt6/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/yt6/ws_moveit2/install/moveit_resources_panda_description:/home/yt6/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/yt6/ws_moveit2/install/moveit_resources_fanuc_description:/home/yt6/ws_moveit2/install/moveit_msgs:/home/yt6/ws_moveit2/install/moveit_common LD_LIBRARY_PATH=/home/yt6/ros2_py_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/yt6/ros2_py_ws/install/dynamixel_sdk/lib:/home/yt6/ros2_py_ws/src/install/dynamixel_sdk_custom_interfaces/lib:/home/yt6/ros2_py_ws/src/install/dynamixel_sdk/lib:/home/yt6/ws_moveit2/install/rviz_marker_tools/lib:/home/yt6/ws_moveit2/install/moveit_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/yt6/ros2_py_ws/build/dynamixel_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yt6/ros2_py_ws/install/dynamixel_control/lib/python3.8/site-packages:/home/yt6/ros2_py_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:/home/yt6/ros2_py_ws/build/dynamixel_publisher:/home/yt6/ros2_py_ws/build/dynamixel_control:/home/yt6/ros2_py_ws/install/dynamixel_publisher/lib/python3.8/site-packages:/home/yt6/ros2_py_ws/install/dynamixel_control/lib/python3.8/site-packages:/home/yt6/ros2_py_ws/src/install/my_vision_pkg/lib/python3.8/site-packages:/home/yt6/ros2_py_ws/src/install/my_py_pkg/lib/python3.8/site-packages:/home/yt6/ros2_py_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:/home/yt6/ros2_py_ws/src/install/dynamixel_control/lib/python3.8/site-packages:/home/yt6/ros2_py_ws/build/my_vision_pkg:/home/yt6/ros2_py_ws/install/my_vision_pkg/lib/python3.8/site-packages:/home/yt6/ros2_py_ws/build/my_py_pkg:/home/yt6/ros2_py_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/yt6/ws_moveit2/install/moveit_msgs/lib/python3.8/site-packages:/home/yt6/ws_moveit2/install/moveit_configs_utils/lib/python3.8/site-packages:/opt/ros/humble/lib/python3.8/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dynamixel_control build --build-base /home/yt6/ros2_py_ws/build/dynamixel_control/build install --record /home/yt6/ros2_py_ws/build/dynamixel_control/install.log --single-version-externally-managed install_data
+[1.977s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yt6/ros2_py_ws/src/dynamixel_publisher': CMAKE_PREFIX_PATH=/home/yt6/ros2_py_ws/install/dynamixel_sdk_custom_interfaces:/home/yt6/ros2_py_ws/install/dynamixel_sdk:/home/yt6/ros2_py_ws/src/install/dynamixel_sdk_examples:/home/yt6/ros2_py_ws/src/install/dynamixel_sdk_custom_interfaces:/home/yt6/ros2_py_ws/src/install/dynamixel_sdk:/home/yt6/ros2_py_ws/install/dynamixel_sdk_examples:/home/yt6/ws_moveit2/install/rviz_marker_tools:/home/yt6/ws_moveit2/install/moveit_resources_prbt_support:/home/yt6/ws_moveit2/install/moveit_resources:/home/yt6/ws_moveit2/install/moveit_resources_pr2_description:/home/yt6/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/yt6/ws_moveit2/install/moveit_resources_panda_description:/home/yt6/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/yt6/ws_moveit2/install/moveit_resources_fanuc_description:/home/yt6/ws_moveit2/install/moveit_msgs:/home/yt6/ws_moveit2/install/moveit_common LD_LIBRARY_PATH=/home/yt6/ros2_py_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/yt6/ros2_py_ws/install/dynamixel_sdk/lib:/home/yt6/ros2_py_ws/src/install/dynamixel_sdk_custom_interfaces/lib:/home/yt6/ros2_py_ws/src/install/dynamixel_sdk/lib:/home/yt6/ws_moveit2/install/rviz_marker_tools/lib:/home/yt6/ws_moveit2/install/moveit_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/yt6/ros2_py_ws/build/dynamixel_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yt6/ros2_py_ws/install/dynamixel_publisher/lib/python3.8/site-packages:/home/yt6/ros2_py_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:/home/yt6/ros2_py_ws/build/dynamixel_publisher:/home/yt6/ros2_py_ws/build/dynamixel_control:/home/yt6/ros2_py_ws/install/dynamixel_publisher/lib/python3.8/site-packages:/home/yt6/ros2_py_ws/install/dynamixel_control/lib/python3.8/site-packages:/home/yt6/ros2_py_ws/src/install/my_vision_pkg/lib/python3.8/site-packages:/home/yt6/ros2_py_ws/src/install/my_py_pkg/lib/python3.8/site-packages:/home/yt6/ros2_py_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:/home/yt6/ros2_py_ws/src/install/dynamixel_control/lib/python3.8/site-packages:/home/yt6/ros2_py_ws/build/my_vision_pkg:/home/yt6/ros2_py_ws/install/my_vision_pkg/lib/python3.8/site-packages:/home/yt6/ros2_py_ws/build/my_py_pkg:/home/yt6/ros2_py_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/yt6/ws_moveit2/install/moveit_msgs/lib/python3.8/site-packages:/home/yt6/ws_moveit2/install/moveit_configs_utils/lib/python3.8/site-packages:/opt/ros/humble/lib/python3.8/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dynamixel_publisher build --build-base /home/yt6/ros2_py_ws/build/dynamixel_publisher/build install --record /home/yt6/ros2_py_ws/build/dynamixel_publisher/install.log --single-version-externally-managed install_data
+[2.207s] Level 1:colcon.colcon_core.environment:checking '/home/yt6/ros2_py_ws/install/dynamixel_control' for CMake module files
+[2.208s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yt6/ros2_py_ws/src/dynamixel_control' returned '0': CMAKE_PREFIX_PATH=/home/yt6/ros2_py_ws/install/dynamixel_sdk_custom_interfaces:/home/yt6/ros2_py_ws/install/dynamixel_sdk:/home/yt6/ros2_py_ws/src/install/dynamixel_sdk_examples:/home/yt6/ros2_py_ws/src/install/dynamixel_sdk_custom_interfaces:/home/yt6/ros2_py_ws/src/install/dynamixel_sdk:/home/yt6/ros2_py_ws/install/dynamixel_sdk_examples:/home/yt6/ws_moveit2/install/rviz_marker_tools:/home/yt6/ws_moveit2/install/moveit_resources_prbt_support:/home/yt6/ws_moveit2/install/moveit_resources:/home/yt6/ws_moveit2/install/moveit_resources_pr2_description:/home/yt6/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/yt6/ws_moveit2/install/moveit_resources_panda_description:/home/yt6/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/yt6/ws_moveit2/install/moveit_resources_fanuc_description:/home/yt6/ws_moveit2/install/moveit_msgs:/home/yt6/ws_moveit2/install/moveit_common LD_LIBRARY_PATH=/home/yt6/ros2_py_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/yt6/ros2_py_ws/install/dynamixel_sdk/lib:/home/yt6/ros2_py_ws/src/install/dynamixel_sdk_custom_interfaces/lib:/home/yt6/ros2_py_ws/src/install/dynamixel_sdk/lib:/home/yt6/ws_moveit2/install/rviz_marker_tools/lib:/home/yt6/ws_moveit2/install/moveit_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/yt6/ros2_py_ws/build/dynamixel_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yt6/ros2_py_ws/install/dynamixel_control/lib/python3.8/site-packages:/home/yt6/ros2_py_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:/home/yt6/ros2_py_ws/build/dynamixel_publisher:/home/yt6/ros2_py_ws/build/dynamixel_control:/home/yt6/ros2_py_ws/install/dynamixel_publisher/lib/python3.8/site-packages:/home/yt6/ros2_py_ws/install/dynamixel_control/lib/python3.8/site-packages:/home/yt6/ros2_py_ws/src/install/my_vision_pkg/lib/python3.8/site-packages:/home/yt6/ros2_py_ws/src/install/my_py_pkg/lib/python3.8/site-packages:/home/yt6/ros2_py_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:/home/yt6/ros2_py_ws/src/install/dynamixel_control/lib/python3.8/site-packages:/home/yt6/ros2_py_ws/build/my_vision_pkg:/home/yt6/ros2_py_ws/install/my_vision_pkg/lib/python3.8/site-packages:/home/yt6/ros2_py_ws/build/my_py_pkg:/home/yt6/ros2_py_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/yt6/ws_moveit2/install/moveit_msgs/lib/python3.8/site-packages:/home/yt6/ws_moveit2/install/moveit_configs_utils/lib/python3.8/site-packages:/opt/ros/humble/lib/python3.8/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dynamixel_control build --build-base /home/yt6/ros2_py_ws/build/dynamixel_control/build install --record /home/yt6/ros2_py_ws/build/dynamixel_control/install.log --single-version-externally-managed install_data
+[2.208s] Level 1:colcon.colcon_core.environment:checking '/home/yt6/ros2_py_ws/install/dynamixel_control' for CMake config files
+[2.209s] Level 1:colcon.colcon_core.environment:checking '/home/yt6/ros2_py_ws/install/dynamixel_control/lib'
+[2.209s] Level 1:colcon.colcon_core.environment:checking '/home/yt6/ros2_py_ws/install/dynamixel_control/bin'
+[2.209s] Level 1:colcon.colcon_core.environment:checking '/home/yt6/ros2_py_ws/install/dynamixel_control/lib/pkgconfig/dynamixel_control.pc'
+[2.209s] Level 1:colcon.colcon_core.environment:checking '/home/yt6/ros2_py_ws/install/dynamixel_control/lib/python3.8/site-packages'
+[2.209s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_control', 'pythonpath')
+[2.210s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yt6/ros2_py_ws/install/dynamixel_control/share/dynamixel_control/hook/pythonpath.ps1'
+[2.210s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yt6/ros2_py_ws/install/dynamixel_control/share/dynamixel_control/hook/pythonpath.dsv'
+[2.210s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yt6/ros2_py_ws/install/dynamixel_control/share/dynamixel_control/hook/pythonpath.sh'
+[2.211s] Level 1:colcon.colcon_core.environment:checking '/home/yt6/ros2_py_ws/install/dynamixel_control/bin'
+[2.211s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_control)
+[2.211s] INFO:colcon.colcon_core.shell:Creating package script '/home/yt6/ros2_py_ws/install/dynamixel_control/share/dynamixel_control/package.ps1'
+[2.212s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yt6/ros2_py_ws/install/dynamixel_control/share/dynamixel_control/package.dsv'
+[2.212s] INFO:colcon.colcon_core.shell:Creating package script '/home/yt6/ros2_py_ws/install/dynamixel_control/share/dynamixel_control/package.sh'
+[2.213s] INFO:colcon.colcon_core.shell:Creating package script '/home/yt6/ros2_py_ws/install/dynamixel_control/share/dynamixel_control/package.bash'
+[2.213s] INFO:colcon.colcon_core.shell:Creating package script '/home/yt6/ros2_py_ws/install/dynamixel_control/share/dynamixel_control/package.zsh'
+[2.213s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yt6/ros2_py_ws/install/dynamixel_control/share/colcon-core/packages/dynamixel_control)
+[2.225s] Level 1:colcon.colcon_core.environment:checking '/home/yt6/ros2_py_ws/install/dynamixel_publisher' for CMake module files
+[2.226s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yt6/ros2_py_ws/src/dynamixel_publisher' returned '0': CMAKE_PREFIX_PATH=/home/yt6/ros2_py_ws/install/dynamixel_sdk_custom_interfaces:/home/yt6/ros2_py_ws/install/dynamixel_sdk:/home/yt6/ros2_py_ws/src/install/dynamixel_sdk_examples:/home/yt6/ros2_py_ws/src/install/dynamixel_sdk_custom_interfaces:/home/yt6/ros2_py_ws/src/install/dynamixel_sdk:/home/yt6/ros2_py_ws/install/dynamixel_sdk_examples:/home/yt6/ws_moveit2/install/rviz_marker_tools:/home/yt6/ws_moveit2/install/moveit_resources_prbt_support:/home/yt6/ws_moveit2/install/moveit_resources:/home/yt6/ws_moveit2/install/moveit_resources_pr2_description:/home/yt6/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/yt6/ws_moveit2/install/moveit_resources_panda_description:/home/yt6/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/yt6/ws_moveit2/install/moveit_resources_fanuc_description:/home/yt6/ws_moveit2/install/moveit_msgs:/home/yt6/ws_moveit2/install/moveit_common LD_LIBRARY_PATH=/home/yt6/ros2_py_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/yt6/ros2_py_ws/install/dynamixel_sdk/lib:/home/yt6/ros2_py_ws/src/install/dynamixel_sdk_custom_interfaces/lib:/home/yt6/ros2_py_ws/src/install/dynamixel_sdk/lib:/home/yt6/ws_moveit2/install/rviz_marker_tools/lib:/home/yt6/ws_moveit2/install/moveit_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/yt6/ros2_py_ws/build/dynamixel_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yt6/ros2_py_ws/install/dynamixel_publisher/lib/python3.8/site-packages:/home/yt6/ros2_py_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:/home/yt6/ros2_py_ws/build/dynamixel_publisher:/home/yt6/ros2_py_ws/build/dynamixel_control:/home/yt6/ros2_py_ws/install/dynamixel_publisher/lib/python3.8/site-packages:/home/yt6/ros2_py_ws/install/dynamixel_control/lib/python3.8/site-packages:/home/yt6/ros2_py_ws/src/install/my_vision_pkg/lib/python3.8/site-packages:/home/yt6/ros2_py_ws/src/install/my_py_pkg/lib/python3.8/site-packages:/home/yt6/ros2_py_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:/home/yt6/ros2_py_ws/src/install/dynamixel_control/lib/python3.8/site-packages:/home/yt6/ros2_py_ws/build/my_vision_pkg:/home/yt6/ros2_py_ws/install/my_vision_pkg/lib/python3.8/site-packages:/home/yt6/ros2_py_ws/build/my_py_pkg:/home/yt6/ros2_py_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/yt6/ws_moveit2/install/moveit_msgs/lib/python3.8/site-packages:/home/yt6/ws_moveit2/install/moveit_configs_utils/lib/python3.8/site-packages:/opt/ros/humble/lib/python3.8/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dynamixel_publisher build --build-base /home/yt6/ros2_py_ws/build/dynamixel_publisher/build install --record /home/yt6/ros2_py_ws/build/dynamixel_publisher/install.log --single-version-externally-managed install_data
+[2.226s] Level 1:colcon.colcon_core.environment:checking '/home/yt6/ros2_py_ws/install/dynamixel_publisher' for CMake config files
+[2.227s] Level 1:colcon.colcon_core.environment:checking '/home/yt6/ros2_py_ws/install/dynamixel_publisher/lib'
+[2.227s] Level 1:colcon.colcon_core.environment:checking '/home/yt6/ros2_py_ws/install/dynamixel_publisher/bin'
+[2.227s] Level 1:colcon.colcon_core.environment:checking '/home/yt6/ros2_py_ws/install/dynamixel_publisher/lib/pkgconfig/dynamixel_publisher.pc'
+[2.227s] Level 1:colcon.colcon_core.environment:checking '/home/yt6/ros2_py_ws/install/dynamixel_publisher/lib/python3.8/site-packages'
+[2.228s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_publisher', 'pythonpath')
+[2.228s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yt6/ros2_py_ws/install/dynamixel_publisher/share/dynamixel_publisher/hook/pythonpath.ps1'
+[2.229s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yt6/ros2_py_ws/install/dynamixel_publisher/share/dynamixel_publisher/hook/pythonpath.dsv'
+[2.229s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yt6/ros2_py_ws/install/dynamixel_publisher/share/dynamixel_publisher/hook/pythonpath.sh'
+[2.230s] Level 1:colcon.colcon_core.environment:checking '/home/yt6/ros2_py_ws/install/dynamixel_publisher/bin'
+[2.231s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_publisher)
+[2.231s] INFO:colcon.colcon_core.shell:Creating package script '/home/yt6/ros2_py_ws/install/dynamixel_publisher/share/dynamixel_publisher/package.ps1'
+[2.232s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yt6/ros2_py_ws/install/dynamixel_publisher/share/dynamixel_publisher/package.dsv'
+[2.233s] INFO:colcon.colcon_core.shell:Creating package script '/home/yt6/ros2_py_ws/install/dynamixel_publisher/share/dynamixel_publisher/package.sh'
+[2.234s] INFO:colcon.colcon_core.shell:Creating package script '/home/yt6/ros2_py_ws/install/dynamixel_publisher/share/dynamixel_publisher/package.bash'
+[2.235s] INFO:colcon.colcon_core.shell:Creating package script '/home/yt6/ros2_py_ws/install/dynamixel_publisher/share/dynamixel_publisher/package.zsh'
+[2.235s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yt6/ros2_py_ws/install/dynamixel_publisher/share/colcon-core/packages/dynamixel_publisher)
+[2.236s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.237s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.237s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.237s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.244s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.244s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.244s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.257s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.257s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yt6/ros2_py_ws/install/local_setup.ps1'
+[2.258s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yt6/ros2_py_ws/install/_local_setup_util_ps1.py'
+[2.260s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yt6/ros2_py_ws/install/setup.ps1'
+[2.261s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yt6/ros2_py_ws/install/local_setup.sh'
+[2.262s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yt6/ros2_py_ws/install/_local_setup_util_sh.py'
+[2.262s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yt6/ros2_py_ws/install/setup.sh'
+[2.264s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yt6/ros2_py_ws/install/local_setup.bash'
+[2.264s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yt6/ros2_py_ws/install/setup.bash'
+[2.265s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yt6/ros2_py_ws/install/local_setup.zsh'
+[2.266s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yt6/ros2_py_ws/install/setup.zsh'

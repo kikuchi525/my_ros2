@@ -20,7 +20,9 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'dynamixel_node = dynamixel_control.dynamixel_node:main'
+            'dynamixel_node = dynamixel_publisher.dynamixel_node:main',
+            'dynamixel_curremt_node = dynamixel_publisher.dynamixel_current_node:main',
+            'keyboard_current_publisher = dynamixel_publisher.keyboard_current_publisher:main',
         ],
     },
 )

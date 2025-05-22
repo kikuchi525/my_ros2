@@ -1,1 +1,0 @@
-/home/yt6/ros2_py_ws/src/my_py_pkg/setup.py

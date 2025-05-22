@@ -1,0 +1,20 @@
+running egg_info
+writing ../../build/dynamixel_publisher/dynamixel_publisher.egg-info/PKG-INFO
+writing dependency_links to ../../build/dynamixel_publisher/dynamixel_publisher.egg-info/dependency_links.txt
+writing entry points to ../../build/dynamixel_publisher/dynamixel_publisher.egg-info/entry_points.txt
+writing requirements to ../../build/dynamixel_publisher/dynamixel_publisher.egg-info/requires.txt
+writing top-level names to ../../build/dynamixel_publisher/dynamixel_publisher.egg-info/top_level.txt
+reading manifest file '../../build/dynamixel_publisher/dynamixel_publisher.egg-info/SOURCES.txt'
+writing manifest file '../../build/dynamixel_publisher/dynamixel_publisher.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/yt6/ros2_py_ws/install/dynamixel_publisher/lib/python3.8/site-packages/dynamixel_publisher-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/dynamixel_publisher/dynamixel_publisher.egg-info to /home/yt6/ros2_py_ws/install/dynamixel_publisher/lib/python3.8/site-packages/dynamixel_publisher-0.0.0-py3.8.egg-info
+running install_scripts
+Installing dynamixel_curremt_node script to /home/yt6/ros2_py_ws/install/dynamixel_publisher/lib/dynamixel_publisher
+Installing dynamixel_node script to /home/yt6/ros2_py_ws/install/dynamixel_publisher/lib/dynamixel_publisher
+writing list of installed files to '/home/yt6/ros2_py_ws/build/dynamixel_publisher/install.log'

@@ -1,1 +1,0 @@
-/home/yt6/ros2_py_ws/src/my_vision_pkg/setup.py

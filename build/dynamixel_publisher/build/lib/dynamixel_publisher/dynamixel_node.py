@@ -2,6 +2,8 @@
 import rclpy
 from rclpy.node import Node
 from dynamixel_sdk_custom_interfaces.msg import SetPosition
+from dynamixel_control.dynamixel_node import DynamixelNode
+
 
 class DynamixelPublisher(Node):
     def __init__(self):
@@ -16,7 +18,7 @@ class DynamixelPublisher(Node):
         msg.position = self.position
         self.publisher_.publish(msg)
         self.get_logger().info(f'Publishing: ID={msg.id}, Position={msg.position}')
-        self.position = (self.position + 100) % 1024
+        self.position = (self.position + 100) % 4095
 
 def main(args=None):
     rclpy.init(args=args)

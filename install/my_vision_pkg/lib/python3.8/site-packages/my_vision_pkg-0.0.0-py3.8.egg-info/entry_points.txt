@@ -1,0 +1,3 @@
+[console_scripts]
+detect_circles = my_vision_pkg.detect_circles_node:main
+
