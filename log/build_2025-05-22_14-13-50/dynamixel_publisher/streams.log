@@ -1,0 +1,23 @@
+[0.748s] Invoking command in '/home/yt6/ros2_py_ws/src/dynamixel_publisher': AMENT_PREFIX_PATH=/home/yt6/ros2_py_ws/install/dynamixel_sdk_custom_interfaces:/home/yt6/ros2_py_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yt6/ros2_py_ws/install/dynamixel_sdk_custom_interfaces:/home/yt6/ros2_py_ws/install/dynamixel_sdk LD_LIBRARY_PATH=/home/yt6/ros2_py_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/yt6/ros2_py_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yt6/ros2_py_ws/build/dynamixel_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yt6/ros2_py_ws/install/dynamixel_publisher/lib/python3.8/site-packages:/home/yt6/ros2_py_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dynamixel_publisher build --build-base /home/yt6/ros2_py_ws/build/dynamixel_publisher/build install --record /home/yt6/ros2_py_ws/build/dynamixel_publisher/install.log --single-version-externally-managed install_data
+[0.918s] running egg_info
+[0.919s] writing ../../build/dynamixel_publisher/dynamixel_publisher.egg-info/PKG-INFO
+[0.919s] writing dependency_links to ../../build/dynamixel_publisher/dynamixel_publisher.egg-info/dependency_links.txt
+[0.919s] writing entry points to ../../build/dynamixel_publisher/dynamixel_publisher.egg-info/entry_points.txt
+[0.919s] writing requirements to ../../build/dynamixel_publisher/dynamixel_publisher.egg-info/requires.txt
+[0.919s] writing top-level names to ../../build/dynamixel_publisher/dynamixel_publisher.egg-info/top_level.txt
+[0.942s] reading manifest file '../../build/dynamixel_publisher/dynamixel_publisher.egg-info/SOURCES.txt'
+[0.943s] writing manifest file '../../build/dynamixel_publisher/dynamixel_publisher.egg-info/SOURCES.txt'
+[0.943s] running build
+[0.943s] running build_py
+[0.943s] running install
+[0.944s] running install_lib
+[0.945s] running install_data
+[0.945s] running install_egg_info
+[0.946s] removing '/home/yt6/ros2_py_ws/install/dynamixel_publisher/lib/python3.8/site-packages/dynamixel_publisher-0.0.0-py3.8.egg-info' (and everything under it)
+[0.946s] Copying ../../build/dynamixel_publisher/dynamixel_publisher.egg-info to /home/yt6/ros2_py_ws/install/dynamixel_publisher/lib/python3.8/site-packages/dynamixel_publisher-0.0.0-py3.8.egg-info
+[0.947s] running install_scripts
+[0.958s] Installing dynamixel_curremt_node script to /home/yt6/ros2_py_ws/install/dynamixel_publisher/lib/dynamixel_publisher
+[0.958s] Installing dynamixel_node script to /home/yt6/ros2_py_ws/install/dynamixel_publisher/lib/dynamixel_publisher
+[0.958s] Installing keyboard_current_publisher script to /home/yt6/ros2_py_ws/install/dynamixel_publisher/lib/dynamixel_publisher
+[0.959s] writing list of installed files to '/home/yt6/ros2_py_ws/build/dynamixel_publisher/install.log'
+[0.981s] Invoked command in '/home/yt6/ros2_py_ws/src/dynamixel_publisher' returned '0': AMENT_PREFIX_PATH=/home/yt6/ros2_py_ws/install/dynamixel_sdk_custom_interfaces:/home/yt6/ros2_py_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yt6/ros2_py_ws/install/dynamixel_sdk_custom_interfaces:/home/yt6/ros2_py_ws/install/dynamixel_sdk LD_LIBRARY_PATH=/home/yt6/ros2_py_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/yt6/ros2_py_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yt6/ros2_py_ws/build/dynamixel_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yt6/ros2_py_ws/install/dynamixel_publisher/lib/python3.8/site-packages:/home/yt6/ros2_py_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dynamixel_publisher build --build-base /home/yt6/ros2_py_ws/build/dynamixel_publisher/build install --record /home/yt6/ros2_py_ws/build/dynamixel_publisher/install.log --single-version-externally-managed install_data

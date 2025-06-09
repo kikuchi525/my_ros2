@@ -1,0 +1,23 @@
+[0.755s] Invoking command in '/home/yt6/ros2_py_ws/src/dynamixel_publisher': CMAKE_PREFIX_PATH=/home/yt6/ros2_py_ws/install/dynamixel_sdk_custom_interfaces:/home/yt6/ros2_py_ws/install/dynamixel_sdk:/home/yt6/ros2_py_ws/install/dynamixel_sdk_examples PYTHONPATH=/home/yt6/ros2_py_ws/build/dynamixel_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yt6/ros2_py_ws/install/dynamixel_publisher/lib/python3.8/site-packages:/home/yt6/ros2_py_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:/home/yt6/ros2_py_ws/install/my_vision_pkg/lib/python3.8/site-packages:/home/yt6/ros2_py_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/yt6/ros2_py_ws/install/dynamixel_publisher/lib/python3.8/site-packages:/home/yt6/ros2_py_ws/install/dynamixel_control/lib/python3.8/site-packages:/opt/ros/humble/lib/python3.8/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dynamixel_publisher build --build-base /home/yt6/ros2_py_ws/build/dynamixel_publisher/build install --record /home/yt6/ros2_py_ws/build/dynamixel_publisher/install.log --single-version-externally-managed install_data
+[0.937s] running egg_info
+[0.938s] writing ../../build/dynamixel_publisher/dynamixel_publisher.egg-info/PKG-INFO
+[0.939s] writing dependency_links to ../../build/dynamixel_publisher/dynamixel_publisher.egg-info/dependency_links.txt
+[0.939s] writing entry points to ../../build/dynamixel_publisher/dynamixel_publisher.egg-info/entry_points.txt
+[0.939s] writing requirements to ../../build/dynamixel_publisher/dynamixel_publisher.egg-info/requires.txt
+[0.940s] writing top-level names to ../../build/dynamixel_publisher/dynamixel_publisher.egg-info/top_level.txt
+[0.963s] reading manifest file '../../build/dynamixel_publisher/dynamixel_publisher.egg-info/SOURCES.txt'
+[0.964s] writing manifest file '../../build/dynamixel_publisher/dynamixel_publisher.egg-info/SOURCES.txt'
+[0.964s] running build
+[0.964s] running build_py
+[0.964s] running install
+[0.964s] running install_lib
+[0.965s] running install_data
+[0.965s] running install_egg_info
+[0.967s] removing '/home/yt6/ros2_py_ws/install/dynamixel_publisher/lib/python3.8/site-packages/dynamixel_publisher-0.0.0-py3.8.egg-info' (and everything under it)
+[0.967s] Copying ../../build/dynamixel_publisher/dynamixel_publisher.egg-info to /home/yt6/ros2_py_ws/install/dynamixel_publisher/lib/python3.8/site-packages/dynamixel_publisher-0.0.0-py3.8.egg-info
+[0.968s] running install_scripts
+[0.979s] Installing dynamixel_curremt_node script to /home/yt6/ros2_py_ws/install/dynamixel_publisher/lib/dynamixel_publisher
+[0.979s] Installing dynamixel_node script to /home/yt6/ros2_py_ws/install/dynamixel_publisher/lib/dynamixel_publisher
+[0.980s] Installing keyboard_current_publisher script to /home/yt6/ros2_py_ws/install/dynamixel_publisher/lib/dynamixel_publisher
+[0.980s] writing list of installed files to '/home/yt6/ros2_py_ws/build/dynamixel_publisher/install.log'
+[1.000s] Invoked command in '/home/yt6/ros2_py_ws/src/dynamixel_publisher' returned '0': CMAKE_PREFIX_PATH=/home/yt6/ros2_py_ws/install/dynamixel_sdk_custom_interfaces:/home/yt6/ros2_py_ws/install/dynamixel_sdk:/home/yt6/ros2_py_ws/install/dynamixel_sdk_examples PYTHONPATH=/home/yt6/ros2_py_ws/build/dynamixel_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yt6/ros2_py_ws/install/dynamixel_publisher/lib/python3.8/site-packages:/home/yt6/ros2_py_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:/home/yt6/ros2_py_ws/install/my_vision_pkg/lib/python3.8/site-packages:/home/yt6/ros2_py_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/yt6/ros2_py_ws/install/dynamixel_publisher/lib/python3.8/site-packages:/home/yt6/ros2_py_ws/install/dynamixel_control/lib/python3.8/site-packages:/opt/ros/humble/lib/python3.8/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dynamixel_publisher build --build-base /home/yt6/ros2_py_ws/build/dynamixel_publisher/build install --record /home/yt6/ros2_py_ws/build/dynamixel_publisher/install.log --single-version-externally-managed install_data

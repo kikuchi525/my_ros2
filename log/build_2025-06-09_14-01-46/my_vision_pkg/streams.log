@@ -1,0 +1,24 @@
+[0.999s] Invoking command in '/home/yt6/ros2_py_ws/src/my_vision_pkg': PYTHONPATH=/home/yt6/ros2_py_ws/build/my_vision_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yt6/ros2_py_ws/install/my_vision_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_vision_pkg build --build-base /home/yt6/ros2_py_ws/build/my_vision_pkg/build install --record /home/yt6/ros2_py_ws/build/my_vision_pkg/install.log --single-version-externally-managed install_data
+[1.185s] running egg_info
+[1.185s] writing ../../build/my_vision_pkg/my_vision_pkg.egg-info/PKG-INFO
+[1.185s] writing dependency_links to ../../build/my_vision_pkg/my_vision_pkg.egg-info/dependency_links.txt
+[1.185s] writing entry points to ../../build/my_vision_pkg/my_vision_pkg.egg-info/entry_points.txt
+[1.185s] writing requirements to ../../build/my_vision_pkg/my_vision_pkg.egg-info/requires.txt
+[1.185s] writing top-level names to ../../build/my_vision_pkg/my_vision_pkg.egg-info/top_level.txt
+[1.209s] reading manifest file '../../build/my_vision_pkg/my_vision_pkg.egg-info/SOURCES.txt'
+[1.210s] writing manifest file '../../build/my_vision_pkg/my_vision_pkg.egg-info/SOURCES.txt'
+[1.210s] running build
+[1.210s] running build_py
+[1.210s] copying my_vision_pkg/detect_circles_node.py -> /home/yt6/ros2_py_ws/build/my_vision_pkg/build/lib/my_vision_pkg
+[1.210s] running install
+[1.211s] running install_lib
+[1.212s] copying /home/yt6/ros2_py_ws/build/my_vision_pkg/build/lib/my_vision_pkg/detect_circles_node.py -> /home/yt6/ros2_py_ws/install/my_vision_pkg/lib/python3.8/site-packages/my_vision_pkg
+[1.213s] byte-compiling /home/yt6/ros2_py_ws/install/my_vision_pkg/lib/python3.8/site-packages/my_vision_pkg/detect_circles_node.py to detect_circles_node.cpython-38.pyc
+[1.214s] running install_data
+[1.214s] running install_egg_info
+[1.216s] removing '/home/yt6/ros2_py_ws/install/my_vision_pkg/lib/python3.8/site-packages/my_vision_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+[1.216s] Copying ../../build/my_vision_pkg/my_vision_pkg.egg-info to /home/yt6/ros2_py_ws/install/my_vision_pkg/lib/python3.8/site-packages/my_vision_pkg-0.0.0-py3.8.egg-info
+[1.217s] running install_scripts
+[1.230s] Installing detect_circles script to /home/yt6/ros2_py_ws/install/my_vision_pkg/lib/my_vision_pkg
+[1.230s] writing list of installed files to '/home/yt6/ros2_py_ws/build/my_vision_pkg/install.log'
+[1.253s] Invoked command in '/home/yt6/ros2_py_ws/src/my_vision_pkg' returned '0': PYTHONPATH=/home/yt6/ros2_py_ws/build/my_vision_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yt6/ros2_py_ws/install/my_vision_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_vision_pkg build --build-base /home/yt6/ros2_py_ws/build/my_vision_pkg/build install --record /home/yt6/ros2_py_ws/build/my_vision_pkg/install.log --single-version-externally-managed install_data
