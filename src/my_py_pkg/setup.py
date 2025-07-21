@@ -22,6 +22,8 @@ setup(
         'console_scripts': [
             'talker = my_py_pkg.nodes.talker:main',
             'listener = my_py_pkg.nodes.listener:main',
+            'publisher = my_py_pkg.publisher_node:main',
+            'subscriber = my_py_pkg.subscriber_node:main',
         ],
     },
 )

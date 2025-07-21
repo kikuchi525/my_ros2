@@ -1,0 +1,28 @@
+[0.899s] Invoking command in '/home/yt6/ros2_py_ws/build/my_py_pkg': PYTHONPATH=/home/yt6/ros2_py_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yt6/ros2_py_ws/install/my_py_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/yt6/ros2_py_ws/build/my_py_pkg/build --no-deps symlink_data
+[1.102s] running develop
+[1.242s] running egg_info
+[1.242s] creating my_py_pkg.egg-info
+[1.242s] writing my_py_pkg.egg-info/PKG-INFO
+[1.242s] writing dependency_links to my_py_pkg.egg-info/dependency_links.txt
+[1.242s] writing entry points to my_py_pkg.egg-info/entry_points.txt
+[1.242s] writing requirements to my_py_pkg.egg-info/requires.txt
+[1.242s] writing top-level names to my_py_pkg.egg-info/top_level.txt
+[1.242s] writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[1.266s] reading manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[1.266s] writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[1.292s] running build_ext
+[1.292s] Creating /home/yt6/ros2_py_ws/install/my_py_pkg/lib/python3.8/site-packages/site.py
+[1.293s] Creating /home/yt6/ros2_py_ws/install/my_py_pkg/lib/python3.8/site-packages/my-py-pkg.egg-link (link to .)
+[1.294s] Installing listener script to /home/yt6/ros2_py_ws/install/my_py_pkg/lib/my_py_pkg
+[1.294s] Installing publisher script to /home/yt6/ros2_py_ws/install/my_py_pkg/lib/my_py_pkg
+[1.294s] Installing subscriber script to /home/yt6/ros2_py_ws/install/my_py_pkg/lib/my_py_pkg
+[1.294s] Installing talker script to /home/yt6/ros2_py_ws/install/my_py_pkg/lib/my_py_pkg
+[1.295s] 
+[1.295s] Installed /home/yt6/ros2_py_ws/build/my_py_pkg
+[1.295s] running symlink_data
+[1.295s] creating /home/yt6/ros2_py_ws/install/my_py_pkg/share/ament_index
+[1.295s] creating /home/yt6/ros2_py_ws/install/my_py_pkg/share/ament_index/resource_index
+[1.295s] creating /home/yt6/ros2_py_ws/install/my_py_pkg/share/ament_index/resource_index/packages
+[1.295s] symbolically linking /home/yt6/ros2_py_ws/build/my_py_pkg/resource/my_py_pkg -> /home/yt6/ros2_py_ws/install/my_py_pkg/share/ament_index/resource_index/packages
+[1.295s] symbolically linking /home/yt6/ros2_py_ws/build/my_py_pkg/package.xml -> /home/yt6/ros2_py_ws/install/my_py_pkg/share/my_py_pkg
+[1.329s] Invoked command in '/home/yt6/ros2_py_ws/build/my_py_pkg' returned '0': PYTHONPATH=/home/yt6/ros2_py_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yt6/ros2_py_ws/install/my_py_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/yt6/ros2_py_ws/build/my_py_pkg/build --no-deps symlink_data

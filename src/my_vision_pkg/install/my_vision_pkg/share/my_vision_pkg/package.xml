@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>my_vision_pkg</name>
+  <version>0.0.0</version>
+  <description>Circle detection using Intel RealSense and OpenCV</description>
+  <maintainer email="yt6@todo.todo">yt6</maintainer>
+  <license>MIT</license>
+
+  <!-- 必須: Pythonビルド -->
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <!-- ROS 2 Python用 -->
+  <depend>rclpy</depend>
+  <exec_depend>sensor_msgs</exec_depend>
+
+  <!-- ✅ 追加: カスタムメッセージのために必要 -->
+  <buildtool_depend>rosidl_default_generators</buildtool_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>rosidl_default_runtime</exec_depend>
+
+  <test_depend>ament_copyright</test_depend>
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_pep257</test_depend>
+  <test_depend>python3-pytest</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

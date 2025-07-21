@@ -1,0 +1,4 @@
+import sys
+if sys.prefix == '/usr':
+    sys.real_prefix = sys.prefix
+    sys.prefix = sys.exec_prefix = '/home/yt6/ros2_py_ws/src/my_vision_pkg/install/my_vision_pkg'

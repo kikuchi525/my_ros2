@@ -1,0 +1,13 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from my_vision_msgs/msg/Circles.msg
+// generated code does not contain a copyright notice
+
+#include "my_vision_msgs/msg/Circle.idl"
+
+module my_vision_msgs {
+  module msg {
+    struct Circles {
+      sequence<my_vision_msgs::msg::Circle> circles;
+    };
+  };
+};
