@@ -1,0 +1,21 @@
+running egg_info
+writing ../../build/dynamixel_control/dynamixel_control.egg-info/PKG-INFO
+writing dependency_links to ../../build/dynamixel_control/dynamixel_control.egg-info/dependency_links.txt
+writing entry points to ../../build/dynamixel_control/dynamixel_control.egg-info/entry_points.txt
+writing requirements to ../../build/dynamixel_control/dynamixel_control.egg-info/requires.txt
+writing top-level names to ../../build/dynamixel_control/dynamixel_control.egg-info/top_level.txt
+reading manifest file '../../build/dynamixel_control/dynamixel_control.egg-info/SOURCES.txt'
+writing manifest file '../../build/dynamixel_control/dynamixel_control.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/tabatakenta/kikuchi_jikken/my_ros2/install/dynamixel_control/lib/python3.10/site-packages/dynamixel_control-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/dynamixel_control/dynamixel_control.egg-info to /home/tabatakenta/kikuchi_jikken/my_ros2/install/dynamixel_control/lib/python3.10/site-packages/dynamixel_control-0.0.0-py3.10.egg-info
+running install_scripts
+Installing dynamixel_controller script to /home/tabatakenta/kikuchi_jikken/my_ros2/install/dynamixel_control/lib/dynamixel_control
+Installing dynamixel_current_controller script to /home/tabatakenta/kikuchi_jikken/my_ros2/install/dynamixel_control/lib/dynamixel_control
+Installing keyboard_current_publisher script to /home/tabatakenta/kikuchi_jikken/my_ros2/install/dynamixel_control/lib/dynamixel_control
+writing list of installed files to '/home/tabatakenta/kikuchi_jikken/my_ros2/build/dynamixel_control/install.log'

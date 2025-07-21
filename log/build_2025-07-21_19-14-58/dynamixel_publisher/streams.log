@@ -1,0 +1,23 @@
+[0.725s] Invoking command in '/home/tabatakenta/kikuchi_jikken/my_ros2/src/dynamixel_publisher': PYTHONPATH=/home/tabatakenta/kikuchi_jikken/my_ros2/build/dynamixel_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tabatakenta/kikuchi_jikken/my_ros2/install/dynamixel_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dynamixel_publisher build --build-base /home/tabatakenta/kikuchi_jikken/my_ros2/build/dynamixel_publisher/build install --record /home/tabatakenta/kikuchi_jikken/my_ros2/build/dynamixel_publisher/install.log --single-version-externally-managed install_data
+[0.840s] running egg_info
+[0.840s] writing ../../build/dynamixel_publisher/dynamixel_publisher.egg-info/PKG-INFO
+[0.840s] writing dependency_links to ../../build/dynamixel_publisher/dynamixel_publisher.egg-info/dependency_links.txt
+[0.840s] writing entry points to ../../build/dynamixel_publisher/dynamixel_publisher.egg-info/entry_points.txt
+[0.840s] writing requirements to ../../build/dynamixel_publisher/dynamixel_publisher.egg-info/requires.txt
+[0.840s] writing top-level names to ../../build/dynamixel_publisher/dynamixel_publisher.egg-info/top_level.txt
+[0.841s] reading manifest file '../../build/dynamixel_publisher/dynamixel_publisher.egg-info/SOURCES.txt'
+[0.842s] writing manifest file '../../build/dynamixel_publisher/dynamixel_publisher.egg-info/SOURCES.txt'
+[0.842s] running build
+[0.842s] running build_py
+[0.842s] running install
+[0.842s] running install_lib
+[0.843s] running install_data
+[0.843s] running install_egg_info
+[0.844s] removing '/home/tabatakenta/kikuchi_jikken/my_ros2/install/dynamixel_publisher/lib/python3.10/site-packages/dynamixel_publisher-0.0.0-py3.10.egg-info' (and everything under it)
+[0.844s] Copying ../../build/dynamixel_publisher/dynamixel_publisher.egg-info to /home/tabatakenta/kikuchi_jikken/my_ros2/install/dynamixel_publisher/lib/python3.10/site-packages/dynamixel_publisher-0.0.0-py3.10.egg-info
+[0.844s] running install_scripts
+[0.854s] Installing dynamixel_curremt_node script to /home/tabatakenta/kikuchi_jikken/my_ros2/install/dynamixel_publisher/lib/dynamixel_publisher
+[0.854s] Installing dynamixel_node script to /home/tabatakenta/kikuchi_jikken/my_ros2/install/dynamixel_publisher/lib/dynamixel_publisher
+[0.854s] Installing keyboard_current_publisher script to /home/tabatakenta/kikuchi_jikken/my_ros2/install/dynamixel_publisher/lib/dynamixel_publisher
+[0.855s] writing list of installed files to '/home/tabatakenta/kikuchi_jikken/my_ros2/build/dynamixel_publisher/install.log'
+[0.869s] Invoked command in '/home/tabatakenta/kikuchi_jikken/my_ros2/src/dynamixel_publisher' returned '0': PYTHONPATH=/home/tabatakenta/kikuchi_jikken/my_ros2/build/dynamixel_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tabatakenta/kikuchi_jikken/my_ros2/install/dynamixel_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dynamixel_publisher build --build-base /home/tabatakenta/kikuchi_jikken/my_ros2/build/dynamixel_publisher/build install --record /home/tabatakenta/kikuchi_jikken/my_ros2/build/dynamixel_publisher/install.log --single-version-externally-managed install_data

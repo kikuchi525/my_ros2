@@ -1,4 +1,4 @@
 import sys
 if sys.prefix == '/usr':
     sys.real_prefix = sys.prefix
-    sys.prefix = sys.exec_prefix = '/home/yt6/ros2_py_ws/install/dynamixel_control'
+    sys.prefix = sys.exec_prefix = '/home/tabatakenta/kikuchi_jikken/my_ros2/install/dynamixel_control'

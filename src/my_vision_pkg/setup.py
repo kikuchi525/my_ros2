@@ -29,6 +29,8 @@ setup(
             'detect_circles = my_vision_pkg.detect_circles_node:main',
             'detect_circles_1shot = my_vision_pkg.detect_circles_node2:main',
             'circle_subscriber = my_vision_pkg.circle_subscriber_no_msg:main',
+            'xarm_circle_follower = my_vision_pkg.xarm_circle_follower:main',
+            'xarm_circle_follower_velo = my_vision_pkg.xarm_circle_follower_velo:main',
             
         ],
     },

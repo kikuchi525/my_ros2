@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/home/tabatakenta/.pyenv/versions/3.10.12/bin/python3
 
 import rclpy
 from rclpy.node import Node
